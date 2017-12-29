@@ -57,10 +57,10 @@
 
             <div class="cl pd-5 bg-1 bk-gray mt-20">
                 <span class="l">
-                    <a href="javascript:;" onclick="datadel()" class="btn btn-danger radius">
-                        <i class="Hui-iconfont">&#xe6e2;</i>
-                        批量删除
-                    </a>
+                    <!--<a href="javascript:;" onclick="datadel()" class="btn btn-danger radius">-->
+                        <!--<i class="Hui-iconfont">&#xe6e2;</i>-->
+                        <!--批量删除-->
+                    <!--</a>-->
                     <a href="javascript:;" class="btn btn-primary radius"
                        onclick=news_add('添加新闻','<?php echo U("new/add");?>','','510')>
                         <i class="Hui-iconfont">&#xe600;</i>
@@ -90,10 +90,16 @@
                     <?php if(is_array($list)): foreach($list as $key=>$vo): ?><tr class="text-c">
                             <td><input type="checkbox" value="1" name=""></td>
                             <td><?php echo ($vo["new_id"]); ?></td>
-                            <td><?php echo ($vo["nav_title"]); ?></td>
+                            <td>
+                                <select id="sel<?php echo ($vo["new_id"]); ?>" onchange="selchange('<?php echo ($vo["new_id"]); ?>')">
+                                <?php if(is_array($type)): foreach($type as $key=>$v): if($v["new_name"] == $vo['new_name']): ?><option value="<?php echo ($v["id"]); ?>" selected><?php echo ($v["new_name"]); ?></option>
+                                            <?php else: ?>
+                                            <option value="<?php echo ($v["id"]); ?>"><?php echo ($v["new_name"]); ?></option><?php endif; endforeach; endif; ?>
+                                </select>
+                            </td>
                             <td>
                                 <u style="cursor:pointer" class="text-primary"
-                                   onclick="news_show('','member-show.html','10001','360','400')">
+                                   onclick=news_show('','<?php echo U("new/reveal");?>?id=<?php echo ($vo["new_id"]); ?>','10001','800','600')>
                                     <?php echo ($vo["new_title"]); ?>
                                 </u>
                             </td>
@@ -119,12 +125,12 @@
                                         <i class="Hui-iconfont">&#xe6e1;</i>
                                     </a><?php endif; ?>
                                 <a title="编辑" href="javascript:;"
-                                   onclick="news_edit('编辑','<?php echo U('new/edit');?>?id=<?php echo ($vo["new_id"]); ?>','4','','510')"
+                                   onclick=news_edit('编辑',"<?php echo U('new/edit');?>?id=<?php echo ($vo["new_id"]); ?>",'4','','510')
                                    class="ml-5"
                                    style="text-decoration:none">
                                     <i class="Hui-iconfont">&#xe6df;</i>
                                 </a>
-                                <a title="删除" href="javascript:;" onclick="news_del(this,<?php echo ($vo["new_id"]); ?>)" class="ml-5"
+                                <a title="删除" href="javascript:;" onclick='news_del(this,"<?php echo ($vo["new_id"]); ?>")' class="ml-5"
                                    style="text-decoration:none">
                                     <i class="Hui-iconfont">&#xe6e2;</i>
                                 </a>
@@ -170,6 +176,18 @@
             }
         });
     });
+    function selchange(id) {
+        var sel='#sel'+id;
+        var type = $(sel).val();
+        $.ajax({
+            url: "<?php echo U('new/type');?>",
+            type: 'post',
+            data: {'id': id,'type':type},
+            success: function (data) {
+
+            }
+        })
+    }
     /*新闻-添加*/
     function news_add(title, url, w, h) {
         layer_show(title, url, w, h);
@@ -218,17 +236,15 @@
         layer_show(title, url, w, h);
     }
     /*新闻-删除*/
-    function news_del(obj, id) {
+    function news_del(obj,id) {
         layer.confirm('确认要删除吗？', function (index) {
             $.ajax({
                 url: "<?php echo U('new/delete');?>",
                 type: 'post',
                 data: {'id': id},
                 success: function (data) {
-                    if (data == 1) {
-                        $(obj).parents("tr").remove();
-                        layer.msg('已删除!', {icon: 1, time: 1000});
-                    }
+                    $(obj).parents("tr").remove();
+                    layer.msg('已删除!', {icon: 1, time: 1000});
                 }
             })
         });

@@ -57,10 +57,10 @@
 
             <div class="cl pd-5 bg-1 bk-gray mt-20">
                 <span class="l">
-                    <a href="javascript:;" onclick="datadel()" class="btn btn-danger radius">
-                        <i class="Hui-iconfont">&#xe6e2;</i>
-                        批量删除
-                    </a>
+                    <!--<a href="javascript:;" onclick="datadel()" class="btn btn-danger radius">-->
+                        <!--<i class="Hui-iconfont">&#xe6e2;</i>-->
+                        <!--批量删除-->
+                    <!--</a>-->
                     <a href="javascript:;" class="btn btn-primary radius"
                        onclick=news_add('添加新闻','{:U("new/add")}','','510')>
                         <i class="Hui-iconfont">&#xe600;</i>
@@ -91,10 +91,20 @@
                         <tr class="text-c">
                             <td><input type="checkbox" value="1" name=""></td>
                             <td>{$vo.new_id}</td>
-                            <td>{$vo.nav_title}</td>
+                            <td>
+                                <select id="sel{$vo.new_id}" onchange="selchange('{$vo.new_id}')">
+                                <foreach name="type" item="v">
+                                        <if condition="$v.new_name eq $vo['new_name']">
+                                            <option value="{$v.id}" selected>{$v.new_name}</option>
+                                            <else/>
+                                            <option value="{$v.id}">{$v.new_name}</option>
+                                        </if>
+                                </foreach>
+                                </select>
+                            </td>
                             <td>
                                 <u style="cursor:pointer" class="text-primary"
-                                   onclick="news_show('','member-show.html','10001','360','400')">
+                                   onclick=news_show('','{:U("new/reveal")}?id={$vo.new_id}','10001','800','600')>
                                     {$vo.new_title}
                                 </u>
                             </td>
@@ -124,12 +134,12 @@
                                     </a>
                                 </if>
                                 <a title="编辑" href="javascript:;"
-                                   onclick="news_edit('编辑','{:U('new/edit')}?id={$vo.new_id}','4','','510')"
+                                   onclick=news_edit('编辑',"{:U('new/edit')}?id={$vo.new_id}",'4','','510')
                                    class="ml-5"
                                    style="text-decoration:none">
                                     <i class="Hui-iconfont">&#xe6df;</i>
                                 </a>
-                                <a title="删除" href="javascript:;" onclick="news_del(this,{$vo.new_id})" class="ml-5"
+                                <a title="删除" href="javascript:;" onclick='news_del(this,"{$vo.new_id}")' class="ml-5"
                                    style="text-decoration:none">
                                     <i class="Hui-iconfont">&#xe6e2;</i>
                                 </a>
@@ -176,6 +186,18 @@
             }
         });
     });
+    function selchange(id) {
+        var sel='#sel'+id;
+        var type = $(sel).val();
+        $.ajax({
+            url: "{:U('new/type')}",
+            type: 'post',
+            data: {'id': id,'type':type},
+            success: function (data) {
+
+            }
+        })
+    }
     /*新闻-添加*/
     function news_add(title, url, w, h) {
         layer_show(title, url, w, h);
@@ -224,17 +246,15 @@
         layer_show(title, url, w, h);
     }
     /*新闻-删除*/
-    function news_del(obj, id) {
+    function news_del(obj,id) {
         layer.confirm('确认要删除吗？', function (index) {
             $.ajax({
                 url: "{:U('new/delete')}",
                 type: 'post',
                 data: {'id': id},
                 success: function (data) {
-                    if (data == 1) {
-                        $(obj).parents("tr").remove();
-                        layer.msg('已删除!', {icon: 1, time: 1000});
-                    }
+                    $(obj).parents("tr").remove();
+                    layer.msg('已删除!', {icon: 1, time: 1000});
                 }
             })
         });

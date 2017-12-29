@@ -84,22 +84,22 @@
                     </ul>
                 </li>
 
-                <li>
-                    <a href="#"><i class="fa fa-edit"></i> <span class="nav-label">用户管理</span><span
-                            class="fa arrow"></span></a>
-                    <ul class="nav nav-second-level">
-                        <li><a class="J_menuItem" href="{{ URL('auth/member/index') }}">用户列表</a>
-                        </li>
-                        <li><a class="J_menuItem" href="{{ URL('auth/member/add') }}">添加用户</a>
-                        </li>
-                        <li><a class="J_menuItem" href="{{ URL('auth/member/permission') }}">用户权限</a>
-                        </li>
-                        <li><a class="J_menuItem" href="{{ URL('auth/member/role') }}">角色管理</a>
-                        </li>
-                        <li><a class="J_menuItem" href="{{ URL('auth/member/log') }}">登录记录</a>
-                        </li>
-                    </ul>
-                </li>
+                <!--<li>-->
+                    <!--<a href="#"><i class="fa fa-edit"></i> <span class="nav-label">用户管理</span><span-->
+                            <!--class="fa arrow"></span></a>-->
+                    <!--<ul class="nav nav-second-level">-->
+                        <!--<li><a class="J_menuItem" href="{{ URL('auth/member/index') }}">用户列表</a>-->
+                        <!--</li>-->
+                        <!--<li><a class="J_menuItem" href="{{ URL('auth/member/add') }}">添加用户</a>-->
+                        <!--</li>-->
+                        <!--<li><a class="J_menuItem" href="{{ URL('auth/member/permission') }}">用户权限</a>-->
+                        <!--</li>-->
+                        <!--<li><a class="J_menuItem" href="{{ URL('auth/member/role') }}">角色管理</a>-->
+                        <!--</li>-->
+                        <!--<li><a class="J_menuItem" href="{{ URL('auth/member/log') }}">登录记录</a>-->
+                        <!--</li>-->
+                    <!--</ul>-->
+                <!--</li>-->
                 <li>
                     <a href="#"><i class="icon Hui-iconfont">&#xe6a2;</i> <span class="nav-label">手机页面</span><span
                             class="fa arrow"></span></a>

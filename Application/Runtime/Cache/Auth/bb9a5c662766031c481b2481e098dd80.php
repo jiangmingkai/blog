@@ -50,30 +50,6 @@
 				</span>
             </div>
         </div>
-        <!--{{&#45;&#45;<div class="row cl">&#45;&#45;}}-->
-        <!--{{&#45;&#45;<label class="form-label col-xs-4 col-sm-2"><span class="c-red">*</span>文章类型：</label>&#45;&#45;}}-->
-        <!--{{&#45;&#45;<div class="formControls col-xs-8 col-sm-9">&#45;&#45;}}-->
-        <!--{{&#45;&#45;<span class="select-box">&#45;&#45;}}-->
-        <!--{{&#45;&#45;<select name="" class="select">&#45;&#45;}}-->
-        <!--{{&#45;&#45;<option value="0">全部类型</option>&#45;&#45;}}-->
-        <!--{{&#45;&#45;<option value="1">帮助说明</option>&#45;&#45;}}-->
-        <!--{{&#45;&#45;<option value="2">新闻资讯</option>&#45;&#45;}}-->
-        <!--{{&#45;&#45;</select>&#45;&#45;}}-->
-        <!--{{&#45;&#45;</span>&#45;&#45;}}-->
-        <!--{{&#45;&#45;</div>&#45;&#45;}}-->
-        <!--{{&#45;&#45;</div>&#45;&#45;}}-->
-        <!--{{&#45;&#45;<div class="row cl">&#45;&#45;}}-->
-        <!--{{&#45;&#45;<label class="form-label col-xs-4 col-sm-2">排序值：</label>&#45;&#45;}}-->
-        <!--{{&#45;&#45;<div class="formControls col-xs-8 col-sm-9">&#45;&#45;}}-->
-        <!--{{&#45;&#45;<input type="text" class="input-text" value="0" placeholder="" id="" name="">&#45;&#45;}}-->
-        <!--{{&#45;&#45;</div>&#45;&#45;}}-->
-        <!--{{&#45;&#45;</div>&#45;&#45;}}-->
-        <!--{{&#45;&#45;<div class="row cl">&#45;&#45;}}-->
-        <!--{{&#45;&#45;<label class="form-label col-xs-4 col-sm-2">关键词：</label>&#45;&#45;}}-->
-        <!--{{&#45;&#45;<div class="formControls col-xs-8 col-sm-9">&#45;&#45;}}-->
-        <!--{{&#45;&#45;<input type="text" class="input-text" value="" placeholder="" id="" name="">&#45;&#45;}}-->
-        <!--{{&#45;&#45;</div>&#45;&#45;}}-->
-        <!--{{&#45;&#45;</div>&#45;&#45;}}-->
         <div class="row cl">
             <label class="form-label col-xs-4 col-sm-2">文章摘要：</label>
             <div class="formControls col-xs-8 col-sm-9">
@@ -107,16 +83,27 @@
                 </div>
             </div>
         </div>
+        <!--<div class="row cl">-->
+            <!--<label class="form-label col-xs-4 col-sm-2">文章内容：</label>-->
+            <!--<div class="formControls col-xs-8 col-sm-9">-->
+                <!--<script id="editor" type="text/plain" style="width:100%;height:400px;"></script>-->
+            <!--</div>-->
+        <!--</div>-->
         <div class="row cl">
             <label class="form-label col-xs-4 col-sm-2">文章内容：</label>
             <div class="formControls col-xs-8 col-sm-9">
-                <script id="editor" type="text/plain" style="width:100%;height:400px;"></script>
+                <!--<p>wangEditor 上传图片到服务器</p>-->
+                <div id="div3">
+                    <p></p>
+                </div>
             </div>
         </div>
+        <!--<button id="btn1">获取html</button>-->
+        <!--<button id="btn2">获取text</button>-->
         <div class="row cl">
             <div class="col-xs-8 col-sm-9 col-xs-offset-4 col-sm-offset-2">
-                <button onClick="news_save();" class="btn btn-secondary radius" type="button"><i
-                        class="Hui-iconfont">&#xe632;</i> 保存草稿
+                <button id="btn1"  class="btn btn-secondary radius" type="button"><i
+                        class="Hui-iconfont">&#xe632;</i> 发&nbsp;&nbsp;&nbsp;表
                 </button>
                 <button onClick="removeIframe();" class="btn btn-default radius" type="button">&nbsp;&nbsp;取消&nbsp;&nbsp;</button>
             </div>
@@ -129,57 +116,64 @@
 <script type="text/javascript" src="/Public/auth/lib/h-ui/js/H-ui.js"></script>
 <!--/_footer /作为公共模版分离出去-->
 <script src="/Public/login/js/sweetalert.min.js"></script>
+<script type="text/javascript" src="/Public/auth/wangEditor/wangEditor.min.js"></script>
 <!--请在下方写此页面业务相关的脚本-->
-<script type="text/javascript" src="/Public/auth/lib/ueditor/1.4.3/ueditor.config.js"></script>
-<script type="text/javascript" src="/Public/auth/lib/ueditor/1.4.3/ueditor.all.min.js"></script>
-<script type="text/javascript" src="/Public/auth/lib/ueditor/1.4.3/lang/zh-cn/zh-cn.js"></script>
+<!--<script type="text/javascript" src="/Public/auth/lib/ueditor/1.4.3/ueditor.config.js"></script>-->
+<!--<script type="text/javascript" src="/Public/auth/lib/ueditor/1.4.3/ueditor.all.min.js"></script>-->
+<!--<script type="text/javascript" src="/Public/auth/lib/ueditor/1.4.3/lang/zh-cn/zh-cn.js"></script>-->
 <script type="text/javascript">
-    $(function () {
-        $('.skin-minimal input').iCheck({
-            checkboxClass: 'icheckbox-blue',
-            radioClass: 'iradio-blue',
-            increaseArea: '20%'
-        });
-        var ue = UE.getEditor('editor');
-    });
-    window.onload = function () {
-        setContent();
+    var E = window.wangEditor
+
+    var editor2 = new E('#div3')
+    editor2.customConfig.uploadImgServer = "<?php echo U('new/upload_img');?>";
+    editor2.customConfig.uploadImgMaxSize = 3 * 1024 * 1024;
+    editor2.customConfig.uploadImgMaxLength = 5;
+    editor2.customConfig.uploadFileName = 'file';
+    editor2.customConfig.uploadImgHeaders = {
+        'Accept' : 'multipart/form-data'
     };
-
-    function setContent(isAppendTo) {
-        var arr = [];
-        arr.push("使用editor.setContent('欢迎使用ueditor')方法可以设置编辑器的内容");
-        UE.getEditor('editor').setContent('欢迎使用ueditor', isAppendTo);
-//        alert(arr.join("\n"));
-    }
-
-    function news_save() {
-        var arr = [];
-        arr.push();
-        arr.push(UE.getEditor('editor').getContent());
-        var editor = arr.join("\n");
-        var show = $("#news_show").get(0).checked;
-        if (show == true) {
-            show = 1;
-        } else {
-            show = 0;
+    editor2.customConfig.uploadImgHooks = {
+        error: function (xhr, editor) {
+            alert("2:"+xhr);
+            // 图片上传出错时触发
+            // xhr 是 XMLHttpRequst 对象，editor 是编辑器对象
+        },
+        fail: function (xhr, editor, result) {
+            alert("1:"+xhr);
+        },
+        success:function(xhr, editor, result){
+            // console.log(result)
+            // insertImg('https://ss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/logo/bd_logo1_31bdc765.png')
+        },
+        customInsert: function (insertImg, result, editor) {
+            //console.log(result)
+            // 图片上传并返回结果，自定义插入图片的事件（而不是编辑器自动插入图片！！！）
+            // insertImg 是插入图片的函数，editor 是编辑器对象，result 是服务器端返回的结果
+            // 举例：假如上传图片成功后，服务器端返回的是 {url:'....'} 这种格式，即可这样插入图片：
+            insertImg(result.data)
         }
+    };
+    document.getElementById('btn1').addEventListener('click', function () {
+        var content=editor2.txt.html();
+        var show = $("#news_show").get(0).checked;
+        if (show == true) {show = 1;} else {show = 0;}
         var title = $('#news_title').val();
         var new_id = $('#news_nav_id').val();//选中的值
         var new_auth = $('#news_auth').val();
         var new_abs = $('#news_abs').val();
         var new_key = $('#new_key').val();
-        alert(editor);
-        if (editor == ' ' || editor == null) {
+//        alert(new_content);
+        if (content == ' ' || content == null) {
         } else {
             if (new_abs.length < 200) {
                 info = {
-                    'new_content': editor,
+                    'new_content': content,
                     'new_show': show,
                     'new_title': title,
                     'new_id': new_id,
                     'new_auth': new_auth,
-                    'new_abs': new_abs
+                    'new_abs': new_abs,
+                    'new_key': new_key
                 };
                 $.ajax({
                     url: "<?php echo U('new/save');?>",
@@ -203,7 +197,33 @@
                 })
             }
         }
+    }, false);
+//    document.getElementById('btn2').addEventListener('click', function () {
+//        // 读取 text
+//        alert(editor2.txt.text())
+//    }, false);
+    editor2.create()
+</script>
+<script type="text/javascript">
+    $(function () {
+        $('.skin-minimal input').iCheck({
+            checkboxClass: 'icheckbox-blue',
+            radioClass: 'iradio-blue',
+            increaseArea: '20%'
+        });
+        var ue = UE.getEditor('editor');
+    });
+    window.onload = function () {
+        setContent();
+    };
+
+    function setContent(isAppendTo) {
+        var arr = [];
+        arr.push("使用editor.setContent('欢迎使用ueditor')方法可以设置编辑器的内容");
+        UE.getEditor('editor').setContent('欢迎使用ueditor', isAppendTo);
+//        alert(arr.join("\n"));
     }
+
 </script>
 <!--/请在上方写此页面业务相关的脚本-->
 </body>

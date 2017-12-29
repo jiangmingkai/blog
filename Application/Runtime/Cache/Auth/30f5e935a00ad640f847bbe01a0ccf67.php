@@ -25,7 +25,6 @@
     <script type="text/javascript" src="http://lib.h-ui.net/DD_belatedPNG_0.0.8a-min.js"></script>
     <script>DD_belatedPNG.fix('*');</script><![endif]-->
     <!--/meta 作为公共模版分离出去-->
-    <link href="{{ asset('login/css/sweetalert.css" rel="stylesheet">
     <title>栏目设置</title>
     <link rel="stylesheet" href="/Public/auth/css/layer.css" id="layui_layer_skinlayercss">
 </head>

@@ -14,19 +14,38 @@ class NewController extends CommonController
 {
     public function index()
     {
+        $type=M('new_type')->select();
         $Data = M('new  as  a');
-//        $list=$Data->select();
-//        $Data = M('Data'); // 实例化Data数据对象  date 是你的表名
         import('ORG.Util.Page');// 导入分页类
         $count = $Data->join('tbl_new_type  as  b  on a.new_type = b.id')->count();// 查询满足要求的总记录数 $map表示查询条件
         $Page = new Page($count);// 实例化分页类 传入总记录数
         $show = $Page->show();// 分页显示输出
-//         进行分页数据查询
+        //进行分页数据查询
         $list = $Data->join('tbl_new_type  as  b  on a.new_type = b.id')->order('new_id desc')->limit($Page->firstRow . ',' . $Page->listRows)->select(); // $Page->firstRow 起始条数 $Page->listRows 获取多少条
         $this->assign('list', $list);// 赋值数据集
         $this->assign('page', $show);// 赋值分页输出
         $this->assign('count', $count);
-        return $this->display();
+        $this->assign('type', $type);
+        $this->display();
+    }
+
+    public function type(){
+        if($_POST['id']){
+            $id = $_POST['id'];
+            $data['new_type'] = $_POST['type'];
+            $save = M('new')->where(array('new_id'=>$id))->save($data);
+            if ($save) {
+                $this->ajaxReturn($id);
+            }
+        }
+    }
+    /*
+     * 博客展示
+     */
+    public function reveal(){
+        $new = M('new as a')->where(array('new_id'=>$_GET['id']))->join('tbl_new_type  as  b  on a.new_type = b.id')->find();
+        $this->assign('new', $new);
+        $this->display();
     }
 
     public function show()
@@ -37,6 +56,17 @@ class NewController extends CommonController
         if ($save) {
             $this->ajaxReturn($id);
         }
+    }
+
+    public function upload_img(){
+        $savename = date('YmdHis',time()).mt_rand(0,9999).'.jpeg';//localResizeIMG压缩后的图片都是jpeg格式
+        $imgdirs = "Upload/".date('Y-m-d',time()).'/';
+        mkdirs($imgdirs);
+//        $fileName = $_FILES["file"]["name"];
+        $savepath = 'Upload/'.date('Y-m-d' ,time()).'/'.$savename;
+        $data['data'] = $savepath;
+        move_uploaded_file($_FILES["file"]["tmp_name"],$savepath);
+        return json_encode($data);
     }
 
     public function add()
@@ -98,7 +128,7 @@ class NewController extends CommonController
         $new = M('new')->where('new_id =' . $id)->find();
         $this->assign('list', $list);
         $this->assign('new', $new);
-        return $this->display();
+        $this->display();
     }
 
     public function delete()
