@@ -39,95 +39,93 @@
             </li>
         </if>
         <div class="content">
-            <div class="lists">
-            </div>
+            <div class="lists"></div>
         </div>
     </ul>
 </div>
 <div class="dbgao"></div>
 <include file="Comm:foot"/>
 </body>
-<script src="__PUBLIC__/mobile/up/zepto.min.js"></script>
+<script src="__PUBLIC__/mobile/js/jquery-1.9.1.min.js"></script>
+<!--<script src="__PUBLIC__/mobile/up/zepto.min.js"></script>-->
 <script src="__PUBLIC__/mobile/up/dropload.min.js"></script>
 <script>
-    $(function () {
-        var counter = 0;
-        // 每页展示4个
-        var num = 5;
-        var id={$id};
-        var pageStart = 0, pageEnd = 0;
-        var counter=0;
+    $(function(){
+        // 页数
+        var page = 0;
+        // 每页展示5个
+        var size = 5;
+        var id = {$id};
+        alert(id);
         // dropload
         $('.content').dropload({
-            scrollArea: window,
-            loadDownFn: function (me) {
+            scrollArea : window,
+            loadDownFn : function(me){
+                page++;
+                // 拼接HTML
+                var result = '';
                 $.ajax({
-                    type: 'post',
+                    type: 'POST',
                     url: "{:U('index/load')}",
-                    data: {'id': id,'pageEnd':pageEnd,'counter':counter},
+                    data:{'page':page,'size':size,'id':id},
                     dataType: 'json',
-                    success: function (data) {
+                    success: function(data){
                         var result = '';
                         var img = '';
                         var news = '';
-                        counter++;
-//                        alert(counter);
-                        pageEnd = num * counter;
-                        pageStart = pageEnd - num;
-
-//                        alert(pageEnd);
-                        for (var i = pageStart; i < pageEnd; i++) {
-                            if(data.lists[i]['type'] == 1){
-                                img='<img src="__PUBLIC__/mobile/images/ofo.png" class="aui-img-round aui-list-img-sm"></div>';
-                            }else if(data.lists[i]['type'] == 2){
-                                img='<img src="__PUBLIC__/mobile/images/mobike.jpg" class="aui-img-round aui-list-img-sm"></div>';
-                            }else {
-                                img='<img src="__PUBLIC__/mobile/images/didi.jpg" class="aui-img-round aui-list-img-sm"></div>';
+                        var arrLen = data.lists.length;
+                        if(arrLen > 0){
+                            for(var i=0; i<arrLen; i++){
+                                if(data.lists[i]['type'] == 1){
+                                    img='<img src="__PUBLIC__/mobile/images/ofo.png" class="aui-img-round aui-list-img-sm"></div>';
+                                }else if(data.lists[i]['type'] == 2){
+                                    img='<img src="__PUBLIC__/mobile/images/mobike.jpg" class="aui-img-round aui-list-img-sm"></div>';
+                                }else {
+                                    img='<img src="__PUBLIC__/mobile/images/didi.jpg" class="aui-img-round aui-list-img-sm"></div>';
+                                }
+                                if(data.lists[i]['new'] == 1){
+                                    news='<div class="aui-list-item-right" style="color: red">new</div>';
+                                }else if(data.lists[i]['stop_time']=='2020-01-01 00:00:00'){
+                                    news='<div class="aui-list-item-right">&nbsp;</div>';
+                                }else {
+                                    news='<div class="aui-list-item-right">结束时间&nbsp;'+data.lists[i]['stop_time'].substring(10,0)+'</div>';
+                                }
+                                result += '<a href="'+data.lists[i]['url']+'">'
+                                        +'<li class="aui-list-item aui-list-item-middle">'
+                                        +'<div class="aui-media-list-item-inner">'
+                                        +'<div class="aui-list-item-media" style="width: 3rem;">'
+                                        +img
+                                        +'<div class="aui-list-item-inner aui-list-item-arrow">'
+                                        +'<div class="aui-list-item-text">'
+                                        +'<div class="aui-list-item-title aui-font-size-14">'+data.lists[i]['title']+'</div>'
+                                        +news
+                                        +'</div>'
+                                        +'<div class="aui-list-item-text">'
+                                        +'<div>'+data.lists[i]['create_time']+'</div>'
+                                        +'<div style="text-align: right;color: #04843a">点击领取</div>'
+                                        +'</div>'
+                                        +'</div>'
+                                        +'</div>'
+                                        +'</li>'
+                                        +'</a>';
                             }
-                            if(data.lists[i]['new'] == 1){
-                                news='<div class="aui-list-item-right" style="color: red">new</div>';
-                            }else if(data.lists[i]['stop_time']=='2020-01-01 00:00:00'){
-                                news='<div class="aui-list-item-right">&nbsp;</div>';
-                            }else {
-                                news='<div class="aui-list-item-right">结束时间&nbsp;'+data.lists[i]['stop_time'].substring(10,0)+'</div>';
-                            }
-                             result += '<a href="'+data.lists[i]['url']+'">'
-                                    +'<li class="aui-list-item aui-list-item-middle">'
-                                    +'<div class="aui-media-list-item-inner">'
-                                    +'<div class="aui-list-item-media" style="width: 3rem;">'
-                                    +img
-                                    +'<div class="aui-list-item-inner aui-list-item-arrow">'
-                                    +'<div class="aui-list-item-text">'
-                                    +'<div class="aui-list-item-title aui-font-size-14">'+data.lists[i]['title']+'</div>'
-                                    +news
-                                    +'</div>'
-                                    +'<div class="aui-list-item-text">'
-                                    +'<div>'+data.lists[i]['create_time']+'</div>'
-                                    +'<div style="text-align: right;color: #04843a">点击领取</div>'
-                                    +'</div>'
-                                    +'</div>'
-                                    +'</div>'
-                                    +'</li>'
-                                    +'</a>';
-
-                            if ((i+1) >= data.lists.length) {
-                                // 锁定
-                                me.lock();
-                                // 无数据
-                                me.noData();
-                                break;
-                            }
+                            // 如果没有数据
+                        }else{
+                            // 锁定
+                            me.lock();
+                            // 无数据
+                            me.noData();
                         }
                         // 为了测试，延迟1秒加载
-                        setTimeout(function () {
+                        setTimeout(function(){
+                            // 插入数据到页面，放到最后面
                             $('.lists').append(result);
-                            // 每次数据加载完，必须重置
-                            //writeObj(me);
+                            // 每次数据插入，必须重置
                             me.resetload();
-                        }, 1000);
+                        },1000);
                     },
-                    error: function (xhr, type) {
-                        // alert('Ajax error!');
+                    error: function(xhr, type){
+                        alert('Ajax error!');
                         // 即使加载出错，也得重置
                         me.resetload();
                     }
@@ -135,6 +133,5 @@
             }
         });
     });
-
 </script>
 </html>

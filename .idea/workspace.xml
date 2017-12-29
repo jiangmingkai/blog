@@ -3,14 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="c5882595-c861-48e6-a022-a0698ffb36ef" name="默认的" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Auth/Controller/MobileController.class.php" afterPath="$PROJECT_DIR$/Application/Auth/Controller/MobileController.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Auth/View/Mobile/add.html" afterPath="$PROJECT_DIR$/Application/Auth/View/Mobile/add.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Auth/View/Mobile/edit.html" afterPath="$PROJECT_DIR$/Application/Auth/View/Mobile/edit.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Auth/View/Mobile/index.html" afterPath="$PROJECT_DIR$/Application/Auth/View/Mobile/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Runtime/Cache/Auth/77b37d1cc9a69a80e1912cf8ed5e2fb1.php" afterPath="$PROJECT_DIR$/Application/Runtime/Cache/Auth/77b37d1cc9a69a80e1912cf8ed5e2fb1.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Runtime/Cache/Auth/91d8397d2e28d2a3cb067e1472be764c.php" afterPath="$PROJECT_DIR$/Application/Runtime/Cache/Auth/91d8397d2e28d2a3cb067e1472be764c.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Runtime/Cache/Auth/e5d5c8c9f62efa5472d3f622b4a4a58a.php" afterPath="$PROJECT_DIR$/Application/Runtime/Cache/Auth/e5d5c8c9f62efa5472d3f622b4a4a58a.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Mobile/Controller/IndexController.class.php" afterPath="$PROJECT_DIR$/Application/Mobile/Controller/IndexController.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Mobile/View/Index/info.html" afterPath="$PROJECT_DIR$/Application/Mobile/View/Index/info.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Runtime/Cache/Mobile/7fa7e8b81be3f77dac7c94700cbca94c.php" afterPath="$PROJECT_DIR$/Application/Runtime/Cache/Mobile/7fa7e8b81be3f77dac7c94700cbca94c.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Runtime/Logs/Auth/17_12_29.log" afterPath="$PROJECT_DIR$/Application/Runtime/Logs/Auth/17_12_29.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Runtime/Logs/Common/17_12_29.log" afterPath="$PROJECT_DIR$/Application/Runtime/Logs/Common/17_12_29.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Runtime/Logs/Mobile/17_12_29.log" afterPath="$PROJECT_DIR$/Application/Runtime/Logs/Mobile/17_12_29.log" />
     </list>
     <ignored path="tp3.2.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -32,45 +30,58 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MobileController.class.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Application/Auth/Controller/MobileController.class.php">
+      <file leaf-file-name="IndexController.class.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Application/Mobile/Controller/IndexController.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-29.206896">
-              <caret line="79" column="50" selection-start-line="79" selection-start-column="50" selection-end-line="79" selection-end-column="50" />
+            <state vertical-scroll-proportion="-20.241379">
+              <caret line="80" column="9" selection-start-line="80" selection-start-column="9" selection-end-line="80" selection-end-column="9" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Application/Auth/View/Mobile/index.html">
+      <file leaf-file-name="blog.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Application/Mobile/View/Index/blog.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-17.241379">
-              <caret line="234" column="79" selection-start-line="234" selection-start-column="79" selection-end-line="234" selection-end-column="79" />
+            <state vertical-scroll-proportion="1.3793104">
+              <caret line="76" column="24" selection-start-line="76" selection-start-column="24" selection-end-line="76" selection-end-column="24" />
               <folding>
-                <marker date="1514533691305" expanded="true" signature="14785:14805" placeholder="..." />
-                <marker date="1514533691305" expanded="true" signature="15605:15625" placeholder="..." />
+                <marker date="1514368285870" expanded="true" signature="5173:6365" placeholder="..." />
+                <marker date="1514368285870" expanded="true" signature="5264:6361" placeholder="..." />
+                <marker date="1514368285870" expanded="true" signature="5347:6356" placeholder="..." />
+                <marker date="1514368285870" expanded="true" signature="5432:5444" placeholder="..." />
+                <marker date="1514368285870" expanded="true" signature="5445:5622" placeholder="..." />
+                <marker date="1514368285870" expanded="true" signature="5675:6350" placeholder="..." />
+                <marker date="1514368285870" expanded="true" signature="5707:5945" placeholder="..." />
+                <marker date="1514368285870" expanded="true" signature="5922:5932" placeholder="..." />
+                <marker date="1514368285870" expanded="true" signature="5977:6054" placeholder="..." />
+                <marker date="1514368285870" expanded="true" signature="5977:6130" placeholder="..." />
+                <marker date="1514368285870" expanded="true" signature="6162:6344" placeholder="..." />
+                <marker date="1514368285870" expanded="true" signature="6266:6283" placeholder="..." />
+                <marker date="1514368285870" expanded="true" signature="6362:6365" placeholder="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="edit.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Application/Auth/View/Mobile/edit.html">
+      <file leaf-file-name="info.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Application/Mobile/View/Index/info.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.02306805">
-              <caret line="89" column="64" selection-start-line="89" selection-start-column="64" selection-end-line="89" selection-end-column="64" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="add.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Application/Auth/View/Mobile/add.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-42.068966">
-              <caret line="97" column="38" selection-start-line="97" selection-start-column="38" selection-end-line="97" selection-end-column="38" />
-              <folding />
+            <state vertical-scroll-proportion="0.6309112">
+              <caret line="69" column="57" selection-start-line="69" selection-start-column="57" selection-end-line="69" selection-end-column="57" />
+              <folding>
+                <marker date="1514536197647" expanded="true" signature="3550:3560" placeholder="..." />
+                <marker date="1514536197647" expanded="true" signature="4048:5270" placeholder="..." />
+                <marker date="1514536197647" expanded="true" signature="4139:5222" placeholder="..." />
+                <marker date="1514536197647" expanded="true" signature="4222:5174" placeholder="..." />
+                <marker date="1514536197647" expanded="true" signature="4307:4319" placeholder="..." />
+                <marker date="1514536197647" expanded="true" signature="4320:5173" placeholder="..." />
+                <marker date="1514536197647" expanded="true" signature="4462:5123" placeholder="..." />
+                <marker date="1514536197647" expanded="true" signature="4538:4760" placeholder="..." />
+                <marker date="1514536197647" expanded="true" signature="4836:5073" placeholder="..." />
+                <marker date="1514536197647" expanded="true" signature="4980:5012" placeholder="..." />
+                <marker date="1514536197647" expanded="true" signature="5267:5270" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -93,7 +104,6 @@
       <list>
         <option value="$PROJECT_DIR$/Application/Mobile/View/Index/foot.html" />
         <option value="$PROJECT_DIR$/Public/mobile/up/dropload.min.js" />
-        <option value="$PROJECT_DIR$/Application/Mobile/View/Index/info.html" />
         <option value="$PROJECT_DIR$/music/index.html" />
         <option value="$PROJECT_DIR$/Application/Auth/View/Login/index.html" />
         <option value="$PROJECT_DIR$/Application/Auth/View/Index/welcome.html" />
@@ -126,7 +136,6 @@
         <option value="$PROJECT_DIR$/Application/Mobile/View/Index/blog.html" />
         <option value="$PROJECT_DIR$/Application/Mobile/View/Index/blog_info.html" />
         <option value="$PROJECT_DIR$/Application/Mobile/View/Index/index.html" />
-        <option value="$PROJECT_DIR$/Application/Mobile/Controller/IndexController.class.php" />
         <option value="$PROJECT_DIR$/Application/Auth/View/New/edit.html" />
         <option value="$PROJECT_DIR$/Application/Auth/View/New/add.html" />
         <option value="$PROJECT_DIR$/Application/Auth/View/New/reveal.html" />
@@ -142,6 +151,8 @@
         <option value="$PROJECT_DIR$/Application/Auth/View/Mobile/index.html" />
         <option value="$PROJECT_DIR$/Application/Auth/View/Mobile/add.html" />
         <option value="$PROJECT_DIR$/Application/Auth/View/Mobile/edit.html" />
+        <option value="$PROJECT_DIR$/Application/Mobile/Controller/IndexController.class.php" />
+        <option value="$PROJECT_DIR$/Application/Mobile/View/Index/info.html" />
       </list>
     </option>
   </component>
@@ -300,94 +311,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Mobile" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Controller" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tp3.2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tp3.2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Auth" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="View" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tp3.2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tp3.2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Auth" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="View" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Mobile" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tp3.2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tp3.2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Auth" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tp3.2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tp3.2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Auth" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -683,25 +606,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Mobile/View/Index/info.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
-          <folding>
-            <marker date="1510646844798" expanded="true" signature="3555:3565" placeholder="..." />
-            <marker date="1510646844798" expanded="true" signature="4030:5184" placeholder="..." />
-            <marker date="1510646844798" expanded="true" signature="4117:5140" placeholder="..." />
-            <marker date="1510646844798" expanded="true" signature="4196:5096" placeholder="..." />
-            <marker date="1510646844798" expanded="true" signature="4277:4289" placeholder="..." />
-            <marker date="1510646844798" expanded="true" signature="4290:5095" placeholder="..." />
-            <marker date="1510646844798" expanded="true" signature="4424:5049" placeholder="..." />
-            <marker date="1510646844798" expanded="true" signature="4496:4706" placeholder="..." />
-            <marker date="1510646844798" expanded="true" signature="4778:5003" placeholder="..." />
-            <marker date="1510646844798" expanded="false" signature="4914:4946" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/typescriptCompiler/external/lib.d.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.4118421">
@@ -713,14 +617,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.49078947">
           <caret line="893" column="23" selection-start-line="893" selection-start-column="23" selection-end-line="893" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Mobile/View/Index/travel.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="161" column="0" selection-start-line="161" selection-start-column="0" selection-end-line="161" selection-end-column="64" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -738,31 +634,6 @@
           <caret line="6" column="36" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
           <folding>
             <element signature="n#style#0;n#div#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Mobile/View/Index/blog.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="35" column="66" selection-start-line="35" selection-start-column="66" selection-end-line="35" selection-end-column="66" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#li#0;n#a#0;n#foreach#0;n#div#0;n#div#0;n#ul#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#div#0;n#li#0;n#a#0;n#foreach#0;n#div#0;n#div#0;n#ul#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#1;n#div#2;n#div#1;n#div#0;n#li#0;n#a#0;n#foreach#0;n#div#0;n#div#0;n#ul#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <marker date="1514368285870" expanded="true" signature="5173:6365" placeholder="..." />
-            <marker date="1514368285870" expanded="true" signature="5264:6361" placeholder="..." />
-            <marker date="1514368285870" expanded="true" signature="5347:6356" placeholder="..." />
-            <marker date="1514368285870" expanded="true" signature="5432:5444" placeholder="..." />
-            <marker date="1514368285870" expanded="true" signature="5445:5622" placeholder="..." />
-            <marker date="1514368285870" expanded="true" signature="5675:6350" placeholder="..." />
-            <marker date="1514368285870" expanded="true" signature="5707:5945" placeholder="..." />
-            <marker date="1514368285870" expanded="true" signature="5922:5932" placeholder="..." />
-            <marker date="1514368285870" expanded="true" signature="5977:6054" placeholder="..." />
-            <marker date="1514368285870" expanded="true" signature="5977:6130" placeholder="..." />
-            <marker date="1514368285870" expanded="true" signature="6162:6344" placeholder="..." />
-            <marker date="1514368285870" expanded="true" signature="6266:6283" placeholder="..." />
-            <marker date="1514368285870" expanded="true" signature="6362:6365" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -914,33 +785,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Mobile/Controller/IndexController.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.827586">
-          <caret line="12" column="75" selection-start-line="12" selection-start-column="75" selection-end-line="12" selection-end-column="75" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Auth/Controller/MobileController.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-29.206896">
-          <caret line="79" column="50" selection-start-line="79" selection-start-column="50" selection-end-line="79" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Auth/View/Mobile/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-17.241379">
-          <caret line="234" column="79" selection-start-line="234" selection-start-column="79" selection-end-line="234" selection-end-column="79" />
-          <folding>
-            <marker date="1514533691305" expanded="true" signature="14785:14805" placeholder="..." />
-            <marker date="1514533691305" expanded="true" signature="15605:15625" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Application/Auth/View/Mobile/add.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-42.068966">
@@ -951,9 +795,86 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Application/Auth/View/Mobile/edit.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.02306805">
-          <caret line="89" column="64" selection-start-line="89" selection-start-column="64" selection-end-line="89" selection-end-column="64" />
+        <state vertical-scroll-proportion="-48.275864">
+          <caret line="115" column="27" selection-start-line="115" selection-start-column="27" selection-end-line="115" selection-end-column="27" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Auth/View/Mobile/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.0530565">
+          <caret line="234" column="79" selection-start-line="234" selection-start-column="79" selection-end-line="234" selection-end-column="79" />
+          <folding>
+            <marker date="1514533691305" expanded="true" signature="14785:14805" placeholder="..." />
+            <marker date="1514533691305" expanded="true" signature="15605:15625" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Auth/Controller/MobileController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.9769319">
+          <caret line="79" column="50" selection-start-line="79" selection-start-column="50" selection-end-line="79" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Mobile/View/Index/travel.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.9688581">
+          <caret line="161" column="0" selection-start-line="161" selection-start-column="0" selection-end-line="161" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Mobile/Controller/IndexController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-20.241379">
+          <caret line="80" column="9" selection-start-line="80" selection-start-column="9" selection-end-line="80" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Mobile/View/Index/blog.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.3793104">
+          <caret line="76" column="24" selection-start-line="76" selection-start-column="24" selection-end-line="76" selection-end-column="24" />
+          <folding>
+            <marker date="1514368285870" expanded="true" signature="5173:6365" placeholder="..." />
+            <marker date="1514368285870" expanded="true" signature="5264:6361" placeholder="..." />
+            <marker date="1514368285870" expanded="true" signature="5347:6356" placeholder="..." />
+            <marker date="1514368285870" expanded="true" signature="5432:5444" placeholder="..." />
+            <marker date="1514368285870" expanded="true" signature="5445:5622" placeholder="..." />
+            <marker date="1514368285870" expanded="true" signature="5675:6350" placeholder="..." />
+            <marker date="1514368285870" expanded="true" signature="5707:5945" placeholder="..." />
+            <marker date="1514368285870" expanded="true" signature="5922:5932" placeholder="..." />
+            <marker date="1514368285870" expanded="true" signature="5977:6054" placeholder="..." />
+            <marker date="1514368285870" expanded="true" signature="5977:6130" placeholder="..." />
+            <marker date="1514368285870" expanded="true" signature="6162:6344" placeholder="..." />
+            <marker date="1514368285870" expanded="true" signature="6266:6283" placeholder="..." />
+            <marker date="1514368285870" expanded="true" signature="6362:6365" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Mobile/View/Index/info.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6309112">
+          <caret line="69" column="57" selection-start-line="69" selection-start-column="57" selection-end-line="69" selection-end-column="57" />
+          <folding>
+            <marker date="1514536197647" expanded="true" signature="3550:3560" placeholder="..." />
+            <marker date="1514536197647" expanded="true" signature="4048:5270" placeholder="..." />
+            <marker date="1514536197647" expanded="true" signature="4139:5222" placeholder="..." />
+            <marker date="1514536197647" expanded="true" signature="4222:5174" placeholder="..." />
+            <marker date="1514536197647" expanded="true" signature="4307:4319" placeholder="..." />
+            <marker date="1514536197647" expanded="true" signature="4320:5173" placeholder="..." />
+            <marker date="1514536197647" expanded="true" signature="4462:5123" placeholder="..." />
+            <marker date="1514536197647" expanded="true" signature="4538:4760" placeholder="..." />
+            <marker date="1514536197647" expanded="true" signature="4836:5073" placeholder="..." />
+            <marker date="1514536197647" expanded="true" signature="4980:5012" placeholder="..." />
+            <marker date="1514536197647" expanded="true" signature="5267:5270" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -68,21 +68,15 @@ class IndexController extends Controller {
     }
     //加载数据
     public function load(){
-        $id=$_POST['id'];
-        $start=$_POST['pageEnd'];
-        $counter=$_POST['counter'];
+        $start=$_POST['page']*5;
+        if($_POST['type']){
+            $where['new_type']=$_POST['type'];
+        }
+        $where['is_show']=0;
+        $where['type']=$_POST['id'];
         $info='';
-        if($id){
-            $info['lists']=M('travel')->where(array('is_show'=> 0,'type'=>$id))->order('create_time desc')->select();
-//            $info['lists']=M('travel')->where('type = '.$id)->order('id desc')->limit($start,15)->select();
-//            $info['lists']=M('travel')->where('type = '.$id)->order('id desc')->limit(6)->select();
-            $info['count']=M('travel')->where(array('is_show'=> 0,'type'=>$id))->order('create_time desc')->count();
-//            $info['count']=0;
-//            $last=$start+5;
-//                if($count <=$last){
-//                    $info['count']=1;
-//                }
-//            $info['lists']='';
+        if($start){
+            $info['lists']=M('travel')->where($where)->order('create_time desc')->limit($start,5)->select();
             $this->ajaxReturn ($info,'JSON');
         }
     }
