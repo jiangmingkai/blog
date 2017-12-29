@@ -52,17 +52,12 @@
                                 </span>
                         </a>
                         <ul class="dropdown-menu animated fadeInRight m-t-xs">
-                            <li><a class="J_menuItem" href="form_avatar.html">修改头像</a>
-                            </li>
-                            <li><a class="J_menuItem" href="profile.html">个人资料</a>
-                            </li>
-                            <li><a class="J_menuItem" href="contacts.html">联系我们</a>
-                            </li>
-                            <li><a class="J_menuItem" href="mailbox.html">信箱</a>
-                            </li>
+                            <li><a class="J_menuItem" href="{:U('index/member')}">修改资料</a></li>
+                            <!--<li><a class="J_menuItem" href="profile.html">个人资料</a></li>-->
+                            <!--<li><a class="J_menuItem" href="contacts.html">联系我们</a></li>-->
+                            <!--<li><a class="J_menuItem" href="mailbox.html">信箱</a></li>-->
                             <li class="divider"></li>
-                            <li><a href="login.html">安全退出</a>
-                            </li>
+                            <li><a href="{:U('login/login_out')}">安全退出</a></li>
                         </ul>
                     </div>
                     <div class="logo-element">H+
@@ -119,10 +114,8 @@
                     <a href="#"><i class="fa fa-flask"></i> <span class="nav-label">系统设置</span><span
                             class="fa arrow"></span></a>
                     <ul class="nav nav-second-level">
-                        <li><a class="J_menuItem" href="{:U('set/index')}">栏目设置</a>
-                        </li>
-                        <li><a class="J_menuItem" href="{:U('set/cate')}">系统设置</a>
-                        </li>
+                        <!--<li><a class="J_menuItem" href="{:U('set/index')}">栏目设置</a></li>-->
+                        <li><a class="J_menuItem" href="{:U('set/cate')}">系统设置</a></li>
                     </ul>
                 </li>
             </ul>

@@ -14,14 +14,14 @@ class SetController extends CommonController
 {
     public function index()
     {
-        return $this->display();
+         $this->display();
     }
 
     public function cate()
     {
         $info=M("config")->where('id = 1')->find();
         $this->assign('info',$info);
-        return $this->display();
+         $this->display();
     }
 
     public function cate_check()
@@ -35,7 +35,7 @@ class SetController extends CommonController
         $input['config_title']=I('post.config_title');
         $save=M("config")->where('id = 1')->save($input);
         if($save){
-            return $this->ajaxReturn(1);
+             $this->ajaxReturn(1);
         }
     }
 }

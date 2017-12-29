@@ -54,4 +54,9 @@ class LoginController extends Controller
 //            echo 0;
 //        }
     }
+
+    public function login_out(){
+        unset($_SESSION['username']);
+        $this->success('成功退出','home');
+    }
 }

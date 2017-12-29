@@ -81,7 +81,7 @@ class NewController extends CommonController
             $list[$tag][] = $t;
         }
         $this->assign('list', $list);
-        return $this->display();
+         $this->display();
     }
 
     public function save()

@@ -33,16 +33,16 @@
     <form action="" method="post" class="form form-horizontal" id="form-category-add" novalidate="novalidate">
         <div id="tab-category" class="HuiTab">
             <div class="tabCon" style="display: block;">
-                <div class="row cl">
-                    <label class="form-label col-xs-4 col-sm-2">
-                        <span class="c-red">*</span>
-                        网站根目录：</label>
-                    <div class="formControls col-xs-8 col-sm-9">
-                        <input type="text" class="input-text" value="<?php echo ($info['config_url']); ?>" placeholder="" required id="config_url"  name="">
-                    </div>
-                    <div class="col-3">
-                    </div>
-                </div>
+                <!--<div class="row cl">-->
+                    <!--<label class="form-label col-xs-4 col-sm-2">-->
+                        <!--<span class="c-red">*</span>-->
+                        <!--网站根目录：</label>-->
+                    <!--<div class="formControls col-xs-8 col-sm-9">-->
+                        <!--<input type="text" class="input-text" value="<?php echo ($info['config_url']); ?>" placeholder="" required id="config_url"  name="">-->
+                    <!--</div>-->
+                    <!--<div class="col-3">-->
+                    <!--</div>-->
+                <!--</div>-->
                 <div class="row cl">
                     <label class="form-label col-xs-4 col-sm-2">网站标题：</label>
                     <div class="formControls col-xs-8 col-sm-9">
