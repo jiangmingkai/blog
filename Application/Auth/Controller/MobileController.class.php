@@ -14,8 +14,6 @@ class MobileController extends Controller
     public function index()
     {
         $Data = M('travel');
-//        $list=$Data->select();
-//        $Data = M('Data'); // 实例化Data数据对象  date 是你的表名
         import('ORG.Util.Page');// 导入分页类
         $count = $Data->count();// 查询满足要求的总记录数 $map表示查询条件
         $Page = new Page($count);// 实例化分页类 传入总记录数
@@ -25,9 +23,6 @@ class MobileController extends Controller
         $this->assign('travel', $list);// 赋值数据集
         $this->assign('page', $show);// 赋值分页输出
         $this->assign('count', $count);
-
-//        $travel=M('travel')->order('id desc')->select();
-//        $this->assign('travel',$travel);
         $this->display();
     }
 
@@ -82,7 +77,7 @@ class MobileController extends Controller
         $data['title']= $_POST['title'];
         $data['url']= $_POST['url'];
         $data['is_show']= $_POST['show'];
-        if(isset($_POST['id'])){
+        if(isset($_POST['id']) && $_POST['id'] !=''){
             $save=M('travel')->where('id ='.$id)->data($data)->save();
             if($save){
                 $this->ajaxReturn($save,'json');

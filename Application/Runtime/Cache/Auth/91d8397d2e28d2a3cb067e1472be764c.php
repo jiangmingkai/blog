@@ -94,11 +94,7 @@
 <script type="text/javascript">
     function news_save() {
         var show = $("#show").get(0).checked;
-        if (show == true) {
-            show = 0;
-        } else {
-            show = 1;
-        }
+        if (show == true) {show = 0;} else {show = 1;}
         var title = $('#title').val();
         var id = $('#id').val();
         var type = $('#type').val();//选中的值
@@ -109,6 +105,7 @@
             'show': show,
             'title': title,
             'id': id,
+            'url': url,
             'type': type,
             'stop_time': stop_time
         };

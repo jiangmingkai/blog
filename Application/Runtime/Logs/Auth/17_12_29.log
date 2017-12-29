@@ -9521,3 +9521,911 @@ INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
 SQL: SHOW COLUMNS FROM `tbl_admin` [ RunTime:0.0100s ]
 SQL: UPDATE `tbl_admin` SET `admin_name`='admin',`admin_pass`='admin',`admin_password`='21232f297a57a5a743894a0e4a801fc3' WHERE `admin_id` = 1 [ RunTime:0.0030s ]
 
+[ 2017-12-29T15:36:24+08:00 ] 127.0.0.1 /Auth/mobile/index.html?v=3.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+NOTIC: [2048] Declaration of Auth\Controller\MobileController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\www\tp3.2\Application\Auth\Controller\MobileController.class.php 第 102 行.
+SQL: SHOW COLUMNS FROM `tbl_travel` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tbl_travel` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbl_travel` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.050002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-12-29T15:36:27+08:00 ] 127.0.0.1 /Auth/mobile/edit.html?id=82
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Auth\Controller\MobileController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\www\tp3.2\Application\Auth\Controller\MobileController.class.php 第 102 行.
+SQL: SHOW COLUMNS FROM `tbl_travel` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `tbl_travel` WHERE ( id =82 ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8] Undefined variable: vo D:\wamp\www\tp3.2\Application\Runtime\Cache\Auth\77b37d1cc9a69a80e1912cf8ed5e2fb1.php 第 48 行.
+NOTIC: [8] Undefined variable: vo D:\wamp\www\tp3.2\Application\Runtime\Cache\Auth\77b37d1cc9a69a80e1912cf8ed5e2fb1.php 第 51 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.055003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.056003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-29T15:36:45+08:00 ] 127.0.0.1 /Auth/mobile/edit.html?id=81
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Auth\Controller\MobileController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\www\tp3.2\Application\Auth\Controller\MobileController.class.php 第 102 行.
+SQL: SHOW COLUMNS FROM `tbl_travel` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `tbl_travel` WHERE ( id =81 ) LIMIT 1   [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: vo D:\wamp\www\tp3.2\Application\Runtime\Cache\Auth\77b37d1cc9a69a80e1912cf8ed5e2fb1.php 第 48 行.
+NOTIC: [8] Undefined variable: vo D:\wamp\www\tp3.2\Application\Runtime\Cache\Auth\77b37d1cc9a69a80e1912cf8ed5e2fb1.php 第 51 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-12-29T15:36:52+08:00 ] 127.0.0.1 /Auth/mobile/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Auth\Controller\MobileController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\www\tp3.2\Application\Auth\Controller\MobileController.class.php 第 102 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-12-29T15:37:25+08:00 ] 127.0.0.1 /Auth/mobile/save.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008000s ]
+NOTIC: [2048] Declaration of Auth\Controller\MobileController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\www\tp3.2\Application\Auth\Controller\MobileController.class.php 第 102 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\tp3.2\Application\Auth\Controller\MobileController.class.php 第 78 行.
+NOTIC: [8] Undefined index: url D:\wamp\www\tp3.2\Application\Auth\Controller\MobileController.class.php 第 83 行.
+SQL: SHOW COLUMNS FROM `tbl_travel` [ RunTime:0.0360s ]
+SQL: INSERT INTO `tbl_travel` (`type`,`stop_time`,`create_time`,`title`,`url`,`is_show`) VALUES ('1','2020-17-03','2017-12-29 15:37:25','2342',NULL,'1') [ RunTime:0.0360s ]
+
+[ 2017-12-29T15:37:30+08:00 ] 127.0.0.1 /Auth/mobile/index.html?v=3.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Auth\Controller\MobileController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\www\tp3.2\Application\Auth\Controller\MobileController.class.php 第 102 行.
+SQL: SHOW COLUMNS FROM `tbl_travel` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tbl_travel` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tbl_travel` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-29T15:37:41+08:00 ] 127.0.0.1 /Auth/mobile/edit.html?id=83
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Auth\Controller\MobileController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\www\tp3.2\Application\Auth\Controller\MobileController.class.php 第 102 行.
+SQL: SHOW COLUMNS FROM `tbl_travel` [ RunTime:0.0300s ]
+SQL: SELECT * FROM `tbl_travel` WHERE ( id =83 ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: vo D:\wamp\www\tp3.2\Application\Runtime\Cache\Auth\77b37d1cc9a69a80e1912cf8ed5e2fb1.php 第 48 行.
+NOTIC: [8] Undefined variable: vo D:\wamp\www\tp3.2\Application\Runtime\Cache\Auth\77b37d1cc9a69a80e1912cf8ed5e2fb1.php 第 51 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-29T15:39:25+08:00 ] 127.0.0.1 /Auth/mobile/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Auth\Controller\MobileController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\www\tp3.2\Application\Auth\Controller\MobileController.class.php 第 97 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2017-12-29T15:39:57+08:00 ] 127.0.0.1 /Auth/mobile/save.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Auth\Controller\MobileController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\www\tp3.2\Application\Auth\Controller\MobileController.class.php 第 97 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\tp3.2\Application\Auth\Controller\MobileController.class.php 第 73 行.
+NOTIC: [8] Undefined index: url D:\wamp\www\tp3.2\Application\Auth\Controller\MobileController.class.php 第 78 行.
+SQL: SHOW COLUMNS FROM `tbl_travel` [ RunTime:0.0320s ]
+SQL: INSERT INTO `tbl_travel` (`type`,`stop_time`,`create_time`,`title`,`url`,`is_show`) VALUES ('1','2017-12-15','2017-12-29 15:39:57','234242',NULL,'1') [ RunTime:0.0210s ]
+
+[ 2017-12-29T15:42:25+08:00 ] 127.0.0.1 /Auth/mobile/save.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Auth\Controller\MobileController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\www\tp3.2\Application\Auth\Controller\MobileController.class.php 第 97 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\tp3.2\Application\Auth\Controller\MobileController.class.php 第 73 行.
+NOTIC: [8] Undefined index: url D:\wamp\www\tp3.2\Application\Auth\Controller\MobileController.class.php 第 78 行.
+SQL: SHOW COLUMNS FROM `tbl_travel` [ RunTime:0.0070s ]
+SQL: INSERT INTO `tbl_travel` (`type`,`stop_time`,`create_time`,`title`,`url`,`is_show`) VALUES ('1','2017-12-15','2017-12-29 15:42:25','234242',NULL,'1') [ RunTime:0.0070s ]
+
+[ 2017-12-29T15:42:33+08:00 ] 127.0.0.1 /Auth/mobile/index.html?v=3.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Auth\Controller\MobileController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\www\tp3.2\Application\Auth\Controller\MobileController.class.php 第 97 行.
+SQL: SHOW COLUMNS FROM `tbl_travel` [ RunTime:0.0090s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tbl_travel` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tbl_travel` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-29T15:42:38+08:00 ] 127.0.0.1 /Auth/mobile/edit.html?id=85
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Auth\Controller\MobileController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\www\tp3.2\Application\Auth\Controller\MobileController.class.php 第 97 行.
+SQL: SHOW COLUMNS FROM `tbl_travel` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `tbl_travel` WHERE ( id =85 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: vo D:\wamp\www\tp3.2\Application\Runtime\Cache\Auth\77b37d1cc9a69a80e1912cf8ed5e2fb1.php 第 48 行.
+NOTIC: [8] Undefined variable: vo D:\wamp\www\tp3.2\Application\Runtime\Cache\Auth\77b37d1cc9a69a80e1912cf8ed5e2fb1.php 第 51 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-12-29T15:42:44+08:00 ] 127.0.0.1 /Auth/mobile/edit.html?id=84
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [2048] Declaration of Auth\Controller\MobileController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\www\tp3.2\Application\Auth\Controller\MobileController.class.php 第 97 行.
+SQL: SHOW COLUMNS FROM `tbl_travel` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `tbl_travel` WHERE ( id =84 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: vo D:\wamp\www\tp3.2\Application\Runtime\Cache\Auth\77b37d1cc9a69a80e1912cf8ed5e2fb1.php 第 48 行.
+NOTIC: [8] Undefined variable: vo D:\wamp\www\tp3.2\Application\Runtime\Cache\Auth\77b37d1cc9a69a80e1912cf8ed5e2fb1.php 第 51 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-29T15:42:51+08:00 ] 127.0.0.1 /Auth/mobile/edit.html?id=85
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Auth\Controller\MobileController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\www\tp3.2\Application\Auth\Controller\MobileController.class.php 第 97 行.
+SQL: SHOW COLUMNS FROM `tbl_travel` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `tbl_travel` WHERE ( id =85 ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: vo D:\wamp\www\tp3.2\Application\Runtime\Cache\Auth\77b37d1cc9a69a80e1912cf8ed5e2fb1.php 第 48 行.
+NOTIC: [8] Undefined variable: vo D:\wamp\www\tp3.2\Application\Runtime\Cache\Auth\77b37d1cc9a69a80e1912cf8ed5e2fb1.php 第 51 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-29T15:42:54+08:00 ] 127.0.0.1 /Auth/mobile/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Auth\Controller\MobileController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\www\tp3.2\Application\Auth\Controller\MobileController.class.php 第 97 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-29T15:42:59+08:00 ] 127.0.0.1 /Auth/mobile/edit.html?id=85
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Auth\Controller\MobileController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\www\tp3.2\Application\Auth\Controller\MobileController.class.php 第 97 行.
+SQL: SHOW COLUMNS FROM `tbl_travel` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `tbl_travel` WHERE ( id =85 ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: vo D:\wamp\www\tp3.2\Application\Runtime\Cache\Auth\77b37d1cc9a69a80e1912cf8ed5e2fb1.php 第 48 行.
+NOTIC: [8] Undefined variable: vo D:\wamp\www\tp3.2\Application\Runtime\Cache\Auth\77b37d1cc9a69a80e1912cf8ed5e2fb1.php 第 51 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-29T15:43:11+08:00 ] 127.0.0.1 /Auth/mobile/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Auth\Controller\MobileController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\www\tp3.2\Application\Auth\Controller\MobileController.class.php 第 97 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003001s ]
+
+[ 2017-12-29T15:43:25+08:00 ] 127.0.0.1 /Auth/mobile/save.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Auth\Controller\MobileController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\www\tp3.2\Application\Auth\Controller\MobileController.class.php 第 97 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\tp3.2\Application\Auth\Controller\MobileController.class.php 第 73 行.
+SQL: SHOW COLUMNS FROM `tbl_travel` [ RunTime:0.0060s ]
+SQL: INSERT INTO `tbl_travel` (`type`,`stop_time`,`create_time`,`title`,`url`,`is_show`) VALUES ('1','2017','2017-12-29 15:43:25','sdfsaf','sdfsdfsafsa','1') [ RunTime:0.0120s ]
+
+[ 2017-12-29T15:43:40+08:00 ] 127.0.0.1 /Auth/mobile/index.html?v=3.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Auth\Controller\MobileController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\www\tp3.2\Application\Auth\Controller\MobileController.class.php 第 97 行.
+SQL: SHOW COLUMNS FROM `tbl_travel` [ RunTime:0.0140s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tbl_travel` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbl_travel` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-29T15:43:44+08:00 ] 127.0.0.1 /Auth/mobile/edit.html?id=86
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Auth\Controller\MobileController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\www\tp3.2\Application\Auth\Controller\MobileController.class.php 第 97 行.
+SQL: SHOW COLUMNS FROM `tbl_travel` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `tbl_travel` WHERE ( id =86 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: vo D:\wamp\www\tp3.2\Application\Runtime\Cache\Auth\77b37d1cc9a69a80e1912cf8ed5e2fb1.php 第 48 行.
+NOTIC: [8] Undefined variable: vo D:\wamp\www\tp3.2\Application\Runtime\Cache\Auth\77b37d1cc9a69a80e1912cf8ed5e2fb1.php 第 51 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-29T15:44:52+08:00 ] 127.0.0.1 /Auth/mobile/sdfsdfsafsa
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Auth\Controller\MobileController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\www\tp3.2\Application\Auth\Controller\MobileController.class.php 第 97 行.
+ERR: 非法操作:sdfsdfsafsa
+
+[ 2017-12-29T15:45:41+08:00 ] 127.0.0.1 /Auth/mobile/index.html?v=3.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Auth\Controller\MobileController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\www\tp3.2\Application\Auth\Controller\MobileController.class.php 第 97 行.
+SQL: SHOW COLUMNS FROM `tbl_travel` [ RunTime:0.0090s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tbl_travel` LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tbl_travel` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-29T15:46:05+08:00 ] 127.0.0.1 /Auth/mobile/index.html?v=3.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [2048] Declaration of Auth\Controller\MobileController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\www\tp3.2\Application\Auth\Controller\MobileController.class.php 第 97 行.
+SQL: SHOW COLUMNS FROM `tbl_travel` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tbl_travel` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tbl_travel` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-29T15:46:10+08:00 ] 127.0.0.1 /Auth/mobile/sdfsdfsafsa
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Auth\Controller\MobileController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\www\tp3.2\Application\Auth\Controller\MobileController.class.php 第 97 行.
+ERR: 非法操作:sdfsdfsafsa
+
+[ 2017-12-29T15:46:44+08:00 ] 127.0.0.1 /Auth/mobile/index.html?v=3.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Auth\Controller\MobileController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\www\tp3.2\Application\Auth\Controller\MobileController.class.php 第 97 行.
+SQL: SHOW COLUMNS FROM `tbl_travel` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tbl_travel` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tbl_travel` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.052003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.053003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-29T15:47:09+08:00 ] 127.0.0.1 /Auth/mobile/index.html?v=3.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Auth\Controller\MobileController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\www\tp3.2\Application\Auth\Controller\MobileController.class.php 第 97 行.
+SQL: SHOW COLUMNS FROM `tbl_travel` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tbl_travel` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tbl_travel` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-12-29T15:47:40+08:00 ] 127.0.0.1 /Auth/mobile/index.html?v=3.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Auth\Controller\MobileController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\www\tp3.2\Application\Auth\Controller\MobileController.class.php 第 97 行.
+SQL: SHOW COLUMNS FROM `tbl_travel` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tbl_travel` LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tbl_travel` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-29T15:48:19+08:00 ] 127.0.0.1 /Auth/mobile/delete.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Auth\Controller\MobileController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\www\tp3.2\Application\Auth\Controller\MobileController.class.php 第 97 行.
+SQL: SHOW COLUMNS FROM `tbl_travel` [ RunTime:0.0070s ]
+SQL: DELETE FROM `tbl_travel` WHERE ( id =86 ) [ RunTime:0.0010s ]
+
+[ 2017-12-29T15:48:25+08:00 ] 127.0.0.1 /Auth/mobile/delete.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Auth\Controller\MobileController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\www\tp3.2\Application\Auth\Controller\MobileController.class.php 第 97 行.
+SQL: SHOW COLUMNS FROM `tbl_travel` [ RunTime:0.0050s ]
+SQL: DELETE FROM `tbl_travel` WHERE ( id =85 ) [ RunTime:0.0010s ]
+
+[ 2017-12-29T15:48:32+08:00 ] 127.0.0.1 /Auth/mobile/delete.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Auth\Controller\MobileController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\www\tp3.2\Application\Auth\Controller\MobileController.class.php 第 97 行.
+SQL: SHOW COLUMNS FROM `tbl_travel` [ RunTime:0.0070s ]
+SQL: DELETE FROM `tbl_travel` WHERE ( id =84 ) [ RunTime:0.0040s ]
+
+[ 2017-12-29T15:48:35+08:00 ] 127.0.0.1 /Auth/mobile/edit.html?id=83
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Auth\Controller\MobileController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\www\tp3.2\Application\Auth\Controller\MobileController.class.php 第 97 行.
+SQL: SHOW COLUMNS FROM `tbl_travel` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `tbl_travel` WHERE ( id =83 ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: vo D:\wamp\www\tp3.2\Application\Runtime\Cache\Auth\77b37d1cc9a69a80e1912cf8ed5e2fb1.php 第 48 行.
+NOTIC: [8] Undefined variable: vo D:\wamp\www\tp3.2\Application\Runtime\Cache\Auth\77b37d1cc9a69a80e1912cf8ed5e2fb1.php 第 51 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-12-29T15:48:52+08:00 ] 127.0.0.1 /Auth/mobile/save.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Auth\Controller\MobileController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\www\tp3.2\Application\Auth\Controller\MobileController.class.php 第 97 行.
+NOTIC: [8] Undefined index: url D:\wamp\www\tp3.2\Application\Auth\Controller\MobileController.class.php 第 78 行.
+SQL: SHOW COLUMNS FROM `tbl_travel` [ RunTime:0.0070s ]
+SQL: UPDATE `tbl_travel` SET `type`='3',`stop_time`='0000-00-00 00:00:00',`create_time`='2017-12-29 15:48:52',`title`='2342',`url`=NULL,`is_show`='1' WHERE ( id =83 ) [ RunTime:0.0120s ]
+
+[ 2017-12-29T15:50:05+08:00 ] 127.0.0.1 /Auth/mobile/save.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Auth\Controller\MobileController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\www\tp3.2\Application\Auth\Controller\MobileController.class.php 第 97 行.
+NOTIC: [8] Undefined index: url D:\wamp\www\tp3.2\Application\Auth\Controller\MobileController.class.php 第 78 行.
+SQL: SHOW COLUMNS FROM `tbl_travel` [ RunTime:0.0150s ]
+SQL: UPDATE `tbl_travel` SET `type`='3',`stop_time`='0000-00-00 00:00:00',`create_time`='2017-12-29 15:50:05',`title`='2342',`url`=NULL,`is_show`='1' WHERE ( id =83 ) [ RunTime:0.0020s ]
+
+[ 2017-12-29T15:50:11+08:00 ] 127.0.0.1 /Auth/mobile/edit.html?id=83
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Auth\Controller\MobileController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\www\tp3.2\Application\Auth\Controller\MobileController.class.php 第 97 行.
+SQL: SHOW COLUMNS FROM `tbl_travel` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `tbl_travel` WHERE ( id =83 ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: vo D:\wamp\www\tp3.2\Application\Runtime\Cache\Auth\77b37d1cc9a69a80e1912cf8ed5e2fb1.php 第 48 行.
+NOTIC: [8] Undefined variable: vo D:\wamp\www\tp3.2\Application\Runtime\Cache\Auth\77b37d1cc9a69a80e1912cf8ed5e2fb1.php 第 51 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-29T15:50:17+08:00 ] 127.0.0.1 /Auth/mobile/save.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Auth\Controller\MobileController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\www\tp3.2\Application\Auth\Controller\MobileController.class.php 第 97 行.
+SQL: SHOW COLUMNS FROM `tbl_travel` [ RunTime:0.0070s ]
+SQL: UPDATE `tbl_travel` SET `type`='3',`stop_time`='0000-00-00 00:00:00',`create_time`='2017-12-29 15:50:17',`title`='2342',`url`='155',`is_show`='1' WHERE ( id =83 ) [ RunTime:0.0050s ]
+
+[ 2017-12-29T15:50:25+08:00 ] 127.0.0.1 /Auth/mobile/edit.html?id=83
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010000s ]
+NOTIC: [2048] Declaration of Auth\Controller\MobileController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\www\tp3.2\Application\Auth\Controller\MobileController.class.php 第 97 行.
+SQL: SHOW COLUMNS FROM `tbl_travel` [ RunTime:0.0350s ]
+SQL: SELECT * FROM `tbl_travel` WHERE ( id =83 ) LIMIT 1   [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: vo D:\wamp\www\tp3.2\Application\Runtime\Cache\Auth\77b37d1cc9a69a80e1912cf8ed5e2fb1.php 第 48 行.
+NOTIC: [8] Undefined variable: vo D:\wamp\www\tp3.2\Application\Runtime\Cache\Auth\77b37d1cc9a69a80e1912cf8ed5e2fb1.php 第 51 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-29T15:50:39+08:00 ] 127.0.0.1 /Auth/mobile/edit.html?id=82
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Auth\Controller\MobileController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\www\tp3.2\Application\Auth\Controller\MobileController.class.php 第 97 行.
+SQL: SHOW COLUMNS FROM `tbl_travel` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `tbl_travel` WHERE ( id =82 ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: vo D:\wamp\www\tp3.2\Application\Runtime\Cache\Auth\77b37d1cc9a69a80e1912cf8ed5e2fb1.php 第 48 行.
+NOTIC: [8] Undefined variable: vo D:\wamp\www\tp3.2\Application\Runtime\Cache\Auth\77b37d1cc9a69a80e1912cf8ed5e2fb1.php 第 51 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-29T15:52:35+08:00 ] 127.0.0.1 /Auth/mobile/edit.html?id=83
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Auth\Controller\MobileController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\www\tp3.2\Application\Auth\Controller\MobileController.class.php 第 97 行.
+SQL: SHOW COLUMNS FROM `tbl_travel` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `tbl_travel` WHERE ( id =83 ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: vo D:\wamp\www\tp3.2\Application\Runtime\Cache\Auth\77b37d1cc9a69a80e1912cf8ed5e2fb1.php 第 48 行.
+NOTIC: [8] Undefined variable: vo D:\wamp\www\tp3.2\Application\Runtime\Cache\Auth\77b37d1cc9a69a80e1912cf8ed5e2fb1.php 第 51 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-29T15:54:14+08:00 ] 127.0.0.1 /Auth/mobile/index.html?v=3.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Auth\Controller\MobileController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\www\tp3.2\Application\Auth\Controller\MobileController.class.php 第 97 行.
+SQL: SHOW COLUMNS FROM `tbl_travel` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tbl_travel` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbl_travel` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.066003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.067004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-12-29T15:54:17+08:00 ] 127.0.0.1 /Auth/mobile/edit.html?id=83
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Auth\Controller\MobileController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\www\tp3.2\Application\Auth\Controller\MobileController.class.php 第 97 行.
+SQL: SHOW COLUMNS FROM `tbl_travel` [ RunTime:0.0780s ]
+SQL: SELECT * FROM `tbl_travel` WHERE ( id =83 ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: vo D:\wamp\www\tp3.2\Application\Runtime\Cache\Auth\77b37d1cc9a69a80e1912cf8ed5e2fb1.php 第 48 行.
+NOTIC: [8] Undefined variable: vo D:\wamp\www\tp3.2\Application\Runtime\Cache\Auth\77b37d1cc9a69a80e1912cf8ed5e2fb1.php 第 51 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-12-29T15:54:26+08:00 ] 127.0.0.1 /Auth/mobile/save.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Auth\Controller\MobileController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\www\tp3.2\Application\Auth\Controller\MobileController.class.php 第 97 行.
+SQL: SHOW COLUMNS FROM `tbl_travel` [ RunTime:0.0140s ]
+SQL: UPDATE `tbl_travel` SET `type`='3',`stop_time`='0000-00-00 00:00:00',`create_time`='2017-12-29 15:54:26',`title`='2342',`url`='155',`is_show`='0' WHERE ( id =83 ) [ RunTime:0.0040s ]
+
+[ 2017-12-29T15:54:32+08:00 ] 127.0.0.1 /Auth/mobile/index.html?v=3.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Auth\Controller\MobileController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\www\tp3.2\Application\Auth\Controller\MobileController.class.php 第 97 行.
+SQL: SHOW COLUMNS FROM `tbl_travel` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tbl_travel` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tbl_travel` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-12-29T15:54:38+08:00 ] 127.0.0.1 /Auth/mobile/edit.html?id=83
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+NOTIC: [2048] Declaration of Auth\Controller\MobileController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\www\tp3.2\Application\Auth\Controller\MobileController.class.php 第 97 行.
+SQL: SHOW COLUMNS FROM `tbl_travel` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `tbl_travel` WHERE ( id =83 ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: vo D:\wamp\www\tp3.2\Application\Runtime\Cache\Auth\77b37d1cc9a69a80e1912cf8ed5e2fb1.php 第 48 行.
+NOTIC: [8] Undefined variable: vo D:\wamp\www\tp3.2\Application\Runtime\Cache\Auth\77b37d1cc9a69a80e1912cf8ed5e2fb1.php 第 51 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-29T15:54:44+08:00 ] 127.0.0.1 /Auth/mobile/save.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [2048] Declaration of Auth\Controller\MobileController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\www\tp3.2\Application\Auth\Controller\MobileController.class.php 第 97 行.
+SQL: SHOW COLUMNS FROM `tbl_travel` [ RunTime:0.0130s ]
+SQL: UPDATE `tbl_travel` SET `type`='3',`stop_time`='0000-00-00 00:00:00',`create_time`='2017-12-29 15:54:44',`title`='2342',`url`='155',`is_show`='1' WHERE ( id =83 ) [ RunTime:0.0010s ]
+
+[ 2017-12-29T15:54:47+08:00 ] 127.0.0.1 /Auth/mobile/index.html?v=3.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Auth\Controller\MobileController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\www\tp3.2\Application\Auth\Controller\MobileController.class.php 第 97 行.
+SQL: SHOW COLUMNS FROM `tbl_travel` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tbl_travel` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbl_travel` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+

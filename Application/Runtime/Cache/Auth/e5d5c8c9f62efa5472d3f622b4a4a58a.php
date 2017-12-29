@@ -231,7 +231,7 @@
                             <td><?php echo ($vo["id"]); ?></td>
                             <td>
                                 <u style="cursor:pointer" class="text-primary"
-                                   onclick="news_show('','<?php echo ($vo["url"]); ?>','10001','360','400')">
+                                   onclick="news_show('','<?php echo ($vo["url"]); ?>','10001','300','500')">
                                     <?php echo ($vo["title"]); ?>
                                 </u>
                             </td>

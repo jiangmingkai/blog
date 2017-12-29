@@ -83,8 +83,13 @@
             <label class="form-label col-xs-4 col-sm-2">前台展示：</label>
             <div class="formControls col-xs-8 col-sm-9 skin-minimal">
                 <div class="check-box">
-                    <input type="checkbox" id="show" name="show">
-                    <label for="checkbox-pinglun">&nbsp;</label>
+                    <if condition="$travel.is_show eq 1">
+                        <input type="checkbox" id="show" name="show">
+                        <label for="checkbox-pinglun">&nbsp;</label>
+                        <else/>
+                        <input type="checkbox" checked="checked" id="show"  name="show">
+                        <label for="checkbox-pinglun">&nbsp;</label>
+                    </if>
                 </div>
             </div>
         </div>
@@ -124,6 +129,7 @@
             'title': title,
             'id': id,
             'type': type,
+            'url': url,
             'stop_time': stop_time
         };
         $.ajax({

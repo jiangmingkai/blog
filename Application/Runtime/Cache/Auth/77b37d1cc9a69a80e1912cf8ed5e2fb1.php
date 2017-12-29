@@ -81,8 +81,11 @@
             <label class="form-label col-xs-4 col-sm-2">前台展示：</label>
             <div class="formControls col-xs-8 col-sm-9 skin-minimal">
                 <div class="check-box">
-                    <input type="checkbox" id="show" name="show">
-                    <label for="checkbox-pinglun">&nbsp;</label>
+                    <?php if($travel["is_show"] == 1): ?><input type="checkbox" id="show" name="show">
+                        <label for="checkbox-pinglun">&nbsp;</label>
+                        <?php else: ?>
+                        <input type="checkbox" checked="checked" id="show"  name="show">
+                        <label for="checkbox-pinglun">&nbsp;</label><?php endif; ?>
                 </div>
             </div>
         </div>
@@ -107,9 +110,9 @@
     function news_save() {
         var show = $("#show").get(0).checked;
         if (show == true) {
-            show = 1;
-        } else {
             show = 0;
+        } else {
+            show = 1;
         }
         var title = $('#title').val();
         var id = $('#id').val();
@@ -122,6 +125,7 @@
             'title': title,
             'id': id,
             'type': type,
+            'url': url,
             'stop_time': stop_time
         };
         $.ajax({
