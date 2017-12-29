@@ -1,0 +1,44 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+    margin:0;
+    padding:0;
+    font-family:msyh;
+    color:#333;
+}
+footer{
+    width:100%;
+    margin:0 auto;
+    background:#f2f2f2;
+    position:fixed;
+    bottom:0;
+    border-top:1px solid #d6d7dc;
+}
+.foot_btn{
+    width:25%;
+    height:64px;
+    float:left;
+    text-align:center;
+    background:#f2f2f2;
+}
+.foot_btn_index,.foot_btn_buy,.foot_btn_shop,.foot_btn_my{
+    display:block;
+    width:50px;
+    height:50px;
+    margin:auto;
+    margin-bottom:-8px;
+    background:url(../img/indexs.png);}
+.foot_btn_index{
+    background-position:0 -50px;}
+.foot_btn_buy{
+    background-position:-50px 0;}
+.foot_btn_shop{
+    background-position:-100px 0;}
+.foot_btn_my{
+    background-position:-150px 0;}
+.foot_btn h2{
+    font-size:.9rem;
+    font-weight:normal;}
+.chearfix{
+    clear:both;
+}

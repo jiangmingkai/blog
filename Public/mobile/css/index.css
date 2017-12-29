@@ -1,0 +1,175 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	margin:0;
+	padding:0;
+	font-family:msyh;
+	color:#333;
+	
+	}
+.chearfix{
+	clear:both;}
+.title{
+	width:92%;
+	height:60px;
+	padding: 0 4%;
+	background:#023178;
+	border-bottom:1px solid #fff;
+	}
+.map{
+	width:40px;
+	height:27px;
+	padding:2% 0 0 0;
+	background:url(../img/indexs.png) no-repeat;
+	background-position:-147px -244px;
+	float:left;}
+.map_title{
+	width:100%;
+	color:#fff;
+	line-height:70px;
+	font-size:.7rem;}
+.logo{
+	width:170px;
+	height:45px;
+	background:url(../img/indexs.png) no-repeat;
+	background-position:0 -100px;
+	float:left;
+	position:absolute;
+	left:50%;
+	margin-left:-85px;
+	margin-top:10px;
+	}
+.seach{
+	width:100%;
+	height:50px;
+	background:#023178;
+	padding-top:10px;}
+.seach_white_bg{
+	width:80%;
+	height:40px;
+	margin:auto;
+	border-radius:6px;
+	background:#fff;
+}
+.seach_icon{
+	width:30px;
+	height:30px;
+	margin: 0 0 0 4%;
+	background:url(../img/indexs.png);
+	background-position:-172px -102px;
+	float:left;}
+.seach input{
+	width:75%;
+	outline: medium;
+	border:none;
+	line-height:37px;
+	float:left;
+	font-size:1rem;
+	margin-left:5%;}
+@media screen and (max-width:320px){
+	.seach{
+	width:100%;
+	height:40px;
+	background:#023178;
+	padding-top:10px;}
+.seach_white_bg{
+	width:80%;
+	height:30px;
+	margin:auto;
+	border-radius:6px;
+	background:#fff;
+}
+.seach_icon{
+	width:20px;
+	height:20px;
+	margin: 5px 0 0 4%;
+	float:left;
+	background:url(../img/indexs.png);
+	background-position:-175px -113px;}
+.seach input{
+	width:75%;
+	margin-left:5%;
+	border:none;
+	font-size:.8rem;
+	outline: medium;
+	line-height:27px;
+    float:left;}
+} 
+.banner {
+	width: 100%;
+	height: 150px;
+	/*background-color:#023178;}*/
+}
+.caigou_box{
+	width:100%;
+	padding-bottom:1%;
+	border-bottom:20px solid #f2f2f2;}
+.kuaisu,.zhusou{
+	width:50%;
+	float:left;
+	text-align:center;
+}
+.kuaisu_bg,.zhusou_bg{
+	width:96px;
+	height:96px;
+	background:url(../img/indexs.png);
+	background-position: 0 -148px;
+	margin: 2% auto -1%;}
+.kuaisu_bg{
+	background-position:-105px -148px;}
+.kuaisu_title,.zhusou_title,.goodshop_title{
+		font-weight:bold;
+		font-size:1.1rem}
+.kuaisu_cent,.zhusou_cent{
+	color:#666;
+	font-size:.9rem;}
+.goodshop_title{
+	width:96%;
+	font-size:1rem;
+	padding: 0 2%;
+	line-height:40px;
+	border-bottom:1px solid #d6d7dc;}
+.blues{
+	margin:8px 2% 0 0;
+	float:left;
+	width:8px;
+	height:24px;
+	background:#676767;}
+.goodshop_title_title{
+	float:left;
+}
+.goodshop_cent{
+	width:96%;
+	padding:2%;
+	border-bottom:10px solid #f2f2f2;}
+.goodshop_cent_left{
+	width:40%;
+	height:80px;
+	background:#727272;
+	float:left;}
+.goodshop_cent_right{
+	width:52%;
+	padding:0 4% 2%;
+	float:left;}
+.shop_name,.shop_zhuying,.shop_tel{
+	width:100%;
+	line-height:30px;
+	font-weight:bold;
+	font-size:1rem;}
+.shop_zhuying,.shop_zhuying span{
+		line-height:20px;
+		color:#666;
+		font-size:.9rem;
+	}
+.shop_tel{
+	font-weight:normal;}
+#footer{
+	width:100%;
+	height:100%;
+	position:fixed;
+	bottom:0;
+	border:none;}
+.foot_none{
+	width:100%;
+	height:60px;}

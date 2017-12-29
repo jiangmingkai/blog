@@ -1,0 +1,59 @@
+﻿body {
+    margin: 0 auto;
+    min-width: 320px;
+    max-width: 100%;
+}
+a:link,a:visited{ font-style: normal;}
+img {
+    border: 0 none;
+    height: auto;
+    max-width: 100%;
+    vertical-align: middle;
+}
+.header {
+    background:#0777DD;
+    height: 60px;
+    position: relative;
+    width: 100%;
+}
+.header .title {
+    line-height: 1.5em;
+    text-align: center;
+    font-size: 1.5em;
+    color: #fff;
+    vertical-align: middle;
+    padding: 0.7em 0px;
+    font-family: "微软雅黑";
+    max-width: 200px;
+    width: 200px;
+    margin: 0px auto;
+    overflow: hidden;
+    height: 22px;
+}
+.header .home{    color: #FFFFFF;
+    display: block;
+    left: 0;
+    padding: 13px 20px;
+    position: absolute;}
+.header .back{    color: #FFFFFF;
+    display: block;
+    right: 0px;
+    top: 0px;
+    padding: 13px 20px;
+    position: absolute;}
+.header .header-icon {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: block;
+    height: 22px;
+    margin: 0 auto;
+    width: 22px;
+}
+.header .header-icon-home {
+    background-image: url("../images/icon_home.png");
+}
+
+.header .header-icon-return {
+    background-image: url("../images/icon_return.png");
+}

@@ -1,0 +1,138 @@
+[ 2017-12-06T16:36:27+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载模块:Favicon
+
+[ 2017-12-06T16:36:27+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Favicon
+
+[ 2017-12-06T16:36:40+08:00 ] 127.0.0.1 /e/public/onclick/?enews=donews&classid=11&id=746
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载模块:E
+
+[ 2017-12-06T16:36:40+08:00 ] 127.0.0.1 /e/public/onclick/?enews=donews&classid=11&id=746
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+ERR: 无法加载模块:E
+
+[ 2017-12-06T16:38:41+08:00 ] 127.0.0.1 /jstt/bj/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载模块:Jstt
+
+[ 2017-12-06T17:13:24+08:00 ] 127.0.0.1 /e/public/onclick/?enews=donews&classid=11&id=746
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载模块:E
+
+[ 2017-12-06T17:13:24+08:00 ] 127.0.0.1 /e/public/onclick/?enews=donews&classid=11&id=746
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载模块:E
+
+[ 2017-12-06T17:25:54+08:00 ] 127.0.0.1 /skin-config.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Skin-config
+
+[ 2017-12-06T17:38:04+08:00 ] 127.0.0.1 /news/index_2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:News
+
+[ 2017-12-06T17:43:17+08:00 ] 127.0.0.1 /Public/mobile/img/indexs.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2017-12-06T17:43:21+08:00 ] 127.0.0.1 /afavicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Afavicon
+
+[ 2017-12-06T17:43:23+08:00 ] 127.0.0.1 /Public/mobile/img/indexs.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+ERR: 无法加载模块:Public
+
+[ 2017-12-06T17:43:25+08:00 ] 127.0.0.1 /Public/mobile/img/indexs.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2017-12-06T17:43:32+08:00 ] 127.0.0.1 /Public/mobile/img/indexs.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2017-12-06T17:43:50+08:00 ] 127.0.0.1 /Public/mobile/img/indexs.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2017-12-06T17:47:18+08:00 ] 127.0.0.1 /%7B%7B%20URL('auth/member/index')%20%7D%7D?v=3.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:{{ URL('auth
+
+[ 2017-12-06T17:47:18+08:00 ] 127.0.0.1 /%7B%7B%20URL('auth/member/add')%20%7D%7D?v=3.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载模块:{{ URL('auth
+
+[ 2017-12-06T17:47:19+08:00 ] 127.0.0.1 /%7B%7B%20URL('auth/member/permission')%20%7D%7D?v=3.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:{{ URL('auth
+
+[ 2017-12-06T17:47:20+08:00 ] 127.0.0.1 /%7B%7B%20URL('auth/member/role')%20%7D%7D?v=3.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:{{ URL('auth
+
+[ 2017-12-06T17:47:21+08:00 ] 127.0.0.1 /%7B%7B%20URL('auth/member/log')%20%7D%7D?v=3.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:{{ URL('auth
+
+[ 2017-12-06T17:49:05+08:00 ] 127.0.0.1 /Public/mobile/img/indexs.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载模块:Public
+
+[ 2017-12-06T17:49:16+08:00 ] 127.0.0.1 /bolg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Bolg
+
+[ 2017-12-06T17:49:23+08:00 ] 127.0.0.1 /blog
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005001s ]
+ERR: 无法加载模块:Blog
+

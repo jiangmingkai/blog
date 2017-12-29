@@ -1,0 +1,93 @@
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
+<html>
+<head>
+    <meta content="IE=11.0000" http-equiv="X-UA-Compatible">
+    <meta charset="utf-8">
+    <title>后台登录</title>
+    <meta name="author" content="DeathGhost">
+    <link href="/Public/login/css/style.css" rel="stylesheet" type="text/css">
+    <link href="/Public/login/css/sweetalert.css" rel="stylesheet">
+    <link href="/Public/login/css/toastr.min.css" rel="stylesheet">
+    <style>
+        body {
+            height: 100%;
+            background: #16a085;
+            overflow: hidden;
+        }
+
+        canvas {
+            z-index: -1;
+            position: absolute;
+        }
+    </style>
+    <script src="/Public/login/js/jquery.js"></script>
+    <script src="/Public/login/js/verificationNumbers.js"></script>
+    <script src="/Public/login/js/toastr.min.js"></script>
+    <script src="/Public/login/js/Particleground.js"></script>
+    <script src="/Public/login/js/sweetalert.min.js"></script>
+    <script src="/Public/login/js/login.js"></script>
+    <script>
+        $(document).ready(function () {
+            //粒子背景特效
+            $('body').particleground({
+                dotColor: '#5cbdaa',
+                lineColor: '#5cbdaa'
+            });
+            toastr.options = {
+                "closeButton": true,
+                "debug": false,
+                "progressBar": true,
+                "positionClass": "toast-top-right",
+                "onclick": null,
+                "showDuration": "300",
+                "hideDuration": "1000",
+                "timeOut": "5000",
+                "extendedtimeOut": "1000",
+                "showEasing": "swing",
+                "hideEasing": "linear",
+                "showMethod": "fadeIn",
+                "hidemethod": "fadeOut"
+            }
+
+            // $(".demo2").click(function() {
+            //     swal({
+            //         title: "登陆失败",
+            //         text: "账号或者密码错误",
+            //         type: "error"
+            //     })
+            // });
+        });
+    </script>
+</head>
+
+<body>
+<dl class="admin_login">
+    <form action="" id="login">
+        <dt><strong>站点后台管理系统</strong><em>Management System</em></dt>
+        <dd class="user_icon">
+            <input class="login_txtbx" type="text" name="username" id="username" placeholder="账号" value="">
+        </dd>
+        <dd class="pwd_icon">
+            <input class="login_txtbx" type="password" name="password" id="password" placeholder="密码" value="">
+        </dd>
+        <!--<dd class="val_icon">-->
+            <!--<div class="checkcode">-->
+                <!--<input class="login_txtbx" style="width:100%;" name="code" type="text" maxlength="4" placeholder="验证码" value="">-->
+            <!--</div>-->
+            <!--<img style="float: right;cursor:pointer" src="<?php echo U('login/code') ;?>" alt=""-->
+                 <!--onclick="this.src='<?php echo U('login/code');?>'+ '?'+Math.random();">-->
+        <!--</dd>-->
+        <dd>
+            <button class="submit_btn btn btn-success btn-sm" id="demo2" type="button">立即登陆</button>
+        </dd>
+        <dd>
+            <P>© 2015-2016 DeathGhost 版权所有</P>
+            <P>陕B2-20080224-1</P>
+        </dd>
+    </form>
+</dl>
+</body>
+<script>
+    check("<?php echo U('login/check') ;?>","<?php echo U('index/index');?>");
+</script>
+</html>

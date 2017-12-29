@@ -1,0 +1,65 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>{:CONFIG_TITLE}</title>
+    <meta name="keywords" content="{:CONFIG_KEY}"/>
+    <meta name="description" content="{:CONFIG_ABS}"/>
+    <link href="__PUBLIC__/sys/css/base.css" rel="stylesheet">
+    <link href="__PUBLIC__/sys/css/index.css" rel="stylesheet">
+    <!--[if lt IE 9]>
+    <script src="__PUBLIC__/sys/js/modernizr.js"></script>
+    <![endif]-->
+    <script src="__PUBLIC__/sys/js/scrollReveal.js"></script>
+</head>
+<body>
+<header>
+    <include file="Public/header"/>
+</header>
+<article>
+    <div class="container">
+        <div class="blog" data-scroll-reveal="enter top">
+            <foreach name="top" item="vo">
+                <figure>
+                    <ul>
+                        <a href="{:U('index/info')}?id={$vo.new_id}"><img src="__PUBLIC__/sys/images/t01.jpg"><span>{$vo.new_key}</span></a>
+                    </ul>
+                    <p><a href="{:U('index/info')}?id={$vo.new_id}">{$vo.new_title}</a></p>
+                    <figcaption>{$vo.new_content|msubstr=0,70,'utf-8',true|strip_tags}</figcaption>
+                </figure>
+            </foreach>
+        </div>
+        <ul class="cbp_tmtimeline">
+            <foreach name="new" item="vo">
+                <li>
+                    <time class="cbp_tmtime"><span>{$vo.new_create_time|substr=5,5}</span> <span>{$vo.new_create_time|substr=0,4}</span>
+                    </time>
+                    <div class="cbp_tmicon"></div>
+                    <div class="cbp_tmlabel" data-scroll-reveal="enter right over 1s">
+                        <h2>{$vo.new_title}</h2>
+                        <p>
+                            <span class="blogpic">
+                                <a href="/"><img src="__PUBLIC__/sys/images/t03.jpg"></a>
+                            </span>{$vo.new_content|msubstr=0,150,'utf-8',true|strip_tags}
+                        </p>
+                        <a href="{:U('index/info')}?id={$vo.new_id}" target="_blank" class="readmore">阅读全文&gt;&gt;</a>
+
+                        <a href="" title="心得笔记" target="_blank" class="classname">{$vo.new_name}</a>
+                    </div>
+                </li>
+            </foreach>
+        </ul>
+    </div>
+</article>
+<footer>
+    备案号: <a href="/">{:CONFIG_NUM}</a>
+</footer>
+<script>
+    if (!(/msie [6|7|8|9]/i.test(navigator.userAgent))) {
+        (function () {
+            window.scrollReveal = new scrollReveal({reset: true});
+        })();
+    }
+</script>
+</body>
+</html>

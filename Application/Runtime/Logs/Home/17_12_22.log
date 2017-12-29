@@ -1,0 +1,52 @@
+[ 2017-12-22T08:29:29+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.020000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tbl_config` [ RunTime:0.0500s ]
+SQL: SELECT * FROM `tbl_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0200s ]
+SQL: SHOW COLUMNS FROM `tbl_new` [ RunTime:0.0400s ]
+SQL: SELECT * FROM `tbl_new` WHERE `new_top` = 1 ORDER BY new_id desc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbl_new` [ RunTime:0.0000s ]
+SQL: SELECT * FROM tbl_new  as  a INNER JOIN tbl_new_type  as  b  on a.new_type = b.id  WHERE `new_top` = 0 ORDER BY new_id desc LIMIT 10   [ RunTime:0.0200s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.010000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.010000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.110000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.110000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.010000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010000s ]
+
+[ 2017-12-22T11:08:04+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `tbl_config` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `tbl_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tbl_new` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `tbl_new` WHERE `new_top` = 1 ORDER BY new_id desc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tbl_new` [ RunTime:0.0060s ]
+SQL: SELECT * FROM tbl_new  as  a INNER JOIN tbl_new_type  as  b  on a.new_type = b.id  WHERE `new_top` = 0 ORDER BY new_id desc LIMIT 10   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+

@@ -1,0 +1,1093 @@
+[ 2017-09-18T15:23:22+08:00 ] 127.0.0.1 /tp3.2/auth/login/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-09-18T15:23:22+08:00 ] 127.0.0.1 /tp3.2/Auth/login/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-18T15:23:39+08:00 ] 127.0.0.1 /tp3.2/Auth/login/check.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tbl_admin` [ RunTime:0.0320s ]
+SQL: SELECT * FROM `tbl_admin` WHERE `admin_name` = 'admin' LIMIT 1   [ RunTime:0.0090s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-09-18T15:23:40+08:00 ] 127.0.0.1 /tp3.2/Auth/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.019001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-18T15:23:40+08:00 ] 127.0.0.1 /tp3.2/Auth/index/welcome.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.076004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.076004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-18T15:23:40+08:00 ] 127.0.0.1 /tp3.2/Auth/index/skin-config.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:skin-config
+
+[ 2017-09-18T15:36:09+08:00 ] 127.0.0.1 /tp3.2/Auth/new/index.html?v=3.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [2048] Declaration of Auth\Controller\NewController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\www\tp3.2\Application\Auth\Controller\NewController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `tbl_new` [ RunTime:0.0250s ]
+SQL: SELECT COUNT(*) AS tp_count FROM tbl_new  as  a INNER JOIN tbl_new_type  as  b  on a.new_type = b.id  LIMIT 1   [ RunTime:0.0140s ]
+SQL: SELECT * FROM tbl_new  as  a INNER JOIN tbl_new_type  as  b  on a.new_type = b.id  ORDER BY new_id desc LIMIT 0,2   [ RunTime:0.0230s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8] Undefined index: nav_title D:\wamp\www\tp3.2\Application\Runtime\Cache\Auth\4ad7e1c0351babc8346e0cd6fc4f5518.php 第 54 行.
+NOTIC: [8] Undefined index: nav_title D:\wamp\www\tp3.2\Application\Runtime\Cache\Auth\4ad7e1c0351babc8346e0cd6fc4f5518.php 第 54 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-18T15:36:12+08:00 ] 127.0.0.1 /tp3.2/Auth/new/add.html?v=3.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+NOTIC: [2048] Declaration of Auth\Controller\NewController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\www\tp3.2\Application\Auth\Controller\NewController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `tbl_new_type` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `tbl_new_type` WHERE ( new_type_id = 0 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tbl_new_type` WHERE ( new_type_id =1 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.011001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.013001s ]
+
+[ 2017-09-18T15:41:40+08:00 ] 127.0.0.1 /tp3.2/Auth/new/edit.html?id=8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Auth\Controller\NewController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\www\tp3.2\Application\Auth\Controller\NewController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `tbl_new_type` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `tbl_new_type` WHERE ( new_type_id = 0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbl_new_type` WHERE ( new_type_id =1 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tbl_new` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `tbl_new` WHERE ( new_id =8 ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-09-18T15:44:22+08:00 ] 127.0.0.1 /tp3.2/Auth/new/edit.html?id=8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Auth\Controller\NewController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\www\tp3.2\Application\Auth\Controller\NewController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `tbl_new_type` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `tbl_new_type` WHERE ( new_type_id = 0 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tbl_new_type` WHERE ( new_type_id =1 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tbl_new` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `tbl_new` WHERE ( new_id =8 ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-09-18T15:44:32+08:00 ] 127.0.0.1 /tp3.2/Auth/new/edit.html?id=7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Auth\Controller\NewController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\www\tp3.2\Application\Auth\Controller\NewController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `tbl_new_type` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `tbl_new_type` WHERE ( new_type_id = 0 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tbl_new_type` WHERE ( new_type_id =1 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tbl_new` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `tbl_new` WHERE ( new_id =7 ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-18T15:48:23+08:00 ] 127.0.0.1 /tp3.2/Auth/new/index.html?v=3.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Auth\Controller\NewController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\www\tp3.2\Application\Auth\Controller\NewController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `tbl_new` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM tbl_new  as  a INNER JOIN tbl_new_type  as  b  on a.new_type = b.id  LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM tbl_new  as  a INNER JOIN tbl_new_type  as  b  on a.new_type = b.id  ORDER BY new_id desc LIMIT 0,2   [ RunTime:0.0070s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: nav_title D:\wamp\www\tp3.2\Application\Runtime\Cache\Auth\4ad7e1c0351babc8346e0cd6fc4f5518.php 第 54 行.
+NOTIC: [8] Undefined index: nav_title D:\wamp\www\tp3.2\Application\Runtime\Cache\Auth\4ad7e1c0351babc8346e0cd6fc4f5518.php 第 54 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-09-18T15:48:27+08:00 ] 127.0.0.1 /tp3.2/Auth/new/edit.html?id=8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Auth\Controller\NewController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\www\tp3.2\Application\Auth\Controller\NewController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `tbl_new_type` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `tbl_new_type` WHERE ( new_type_id = 0 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tbl_new_type` WHERE ( new_type_id =1 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tbl_new` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `tbl_new` WHERE ( new_id =8 ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.009000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010000s ]
+
+[ 2017-09-18T15:48:53+08:00 ] 127.0.0.1 /tp3.2/Auth/new/edit.html?id=8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Auth\Controller\NewController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\www\tp3.2\Application\Auth\Controller\NewController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `tbl_new_type` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `tbl_new_type` WHERE ( new_type_id = 0 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tbl_new_type` WHERE ( new_type_id =1 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tbl_new` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `tbl_new` WHERE ( new_id =8 ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-09-18T15:49:29+08:00 ] 127.0.0.1 /tp3.2/Auth/new/edit.html?id=8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Auth\Controller\NewController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\www\tp3.2\Application\Auth\Controller\NewController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `tbl_new_type` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `tbl_new_type` WHERE ( new_type_id = 0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbl_new_type` WHERE ( new_type_id =1 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tbl_new` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `tbl_new` WHERE ( new_id =8 ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.009000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009000s ]
+
+[ 2017-09-18T16:20:10+08:00 ] 127.0.0.1 /tp3.2/Auth/new/member-show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+NOTIC: [2048] Declaration of Auth\Controller\NewController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\www\tp3.2\Application\Auth\Controller\NewController.class.php 第 14 行.
+ERR: 非法操作:member-show
+
+[ 2017-09-18T16:20:23+08:00 ] 127.0.0.1 /tp3.2/Auth/new/add.html?v=3.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+NOTIC: [2048] Declaration of Auth\Controller\NewController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\www\tp3.2\Application\Auth\Controller\NewController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `tbl_new_type` [ RunTime:0.0220s ]
+SQL: SELECT * FROM `tbl_new_type` WHERE ( new_type_id = 0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbl_new_type` WHERE ( new_type_id =1 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-09-18T16:22:31+08:00 ] 127.0.0.1 /tp3.2/Auth/new/edit.html?id=8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Auth\Controller\NewController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\www\tp3.2\Application\Auth\Controller\NewController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `tbl_new_type` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `tbl_new_type` WHERE ( new_type_id = 0 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tbl_new_type` WHERE ( new_type_id =1 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tbl_new` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `tbl_new` WHERE ( new_id =8 ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009001s ]
+
+[ 2017-09-18T18:13:04+08:00 ] 127.0.0.1 /tp3.2/Auth/new/edit.html?id=8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Auth\Controller\NewController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\www\tp3.2\Application\Auth\Controller\NewController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `tbl_new_type` [ RunTime:0.0180s ]
+SQL: SELECT * FROM `tbl_new_type` WHERE ( new_type_id = 0 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tbl_new_type` WHERE ( new_type_id =1 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tbl_new` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `tbl_new` WHERE ( new_id =8 ) LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.009001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-09-18T18:13:28+08:00 ] 127.0.0.1 /tp3.2/Auth/new/edit.html?id=8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Auth\Controller\NewController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\www\tp3.2\Application\Auth\Controller\NewController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `tbl_new_type` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `tbl_new_type` WHERE ( new_type_id = 0 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tbl_new_type` WHERE ( new_type_id =1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbl_new` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `tbl_new` WHERE ( new_id =8 ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001001s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-18T18:22:33+08:00 ] 127.0.0.1 /tp3.2/Auth/new/edit.html?id=8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Auth\Controller\NewController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\www\tp3.2\Application\Auth\Controller\NewController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `tbl_new_type` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `tbl_new_type` WHERE ( new_type_id = 0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbl_new_type` WHERE ( new_type_id =1 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tbl_new` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `tbl_new` WHERE ( new_id =8 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.012001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.013001s ]
+
+[ 2017-09-18T18:23:24+08:00 ] 127.0.0.1 /tp3.2/Auth/new/edit.html?id=8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Auth\Controller\NewController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\www\tp3.2\Application\Auth\Controller\NewController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `tbl_new_type` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `tbl_new_type` WHERE ( new_type_id = 0 )  [ RunTime:0.0080s ]
+SQL: SELECT * FROM `tbl_new_type` WHERE ( new_type_id =1 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tbl_new` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `tbl_new` WHERE ( new_id =8 ) LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.011001s ]
+
+[ 2017-09-18T18:24:12+08:00 ] 127.0.0.1 /tp3.2/Auth/new/index.html?v=3.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009000s ]
+NOTIC: [2048] Declaration of Auth\Controller\NewController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\www\tp3.2\Application\Auth\Controller\NewController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `tbl_new` [ RunTime:0.0090s ]
+SQL: SELECT COUNT(*) AS tp_count FROM tbl_new  as  a INNER JOIN tbl_new_type  as  b  on a.new_type = b.id  LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM tbl_new  as  a INNER JOIN tbl_new_type  as  b  on a.new_type = b.id  ORDER BY new_id desc LIMIT 0,2   [ RunTime:0.0060s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: nav_title D:\wamp\www\tp3.2\Application\Runtime\Cache\Auth\4ad7e1c0351babc8346e0cd6fc4f5518.php 第 54 行.
+NOTIC: [8] Undefined index: nav_title D:\wamp\www\tp3.2\Application\Runtime\Cache\Auth\4ad7e1c0351babc8346e0cd6fc4f5518.php 第 54 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-09-18T18:24:14+08:00 ] 127.0.0.1 /tp3.2/Auth/new/edit.html?id=8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Auth\Controller\NewController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\www\tp3.2\Application\Auth\Controller\NewController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `tbl_new_type` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `tbl_new_type` WHERE ( new_type_id = 0 )  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tbl_new_type` WHERE ( new_type_id =1 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tbl_new` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `tbl_new` WHERE ( new_id =8 ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010001s ]
+
+[ 2017-09-18T18:24:36+08:00 ] 127.0.0.1 /tp3.2/Auth/new/index.html?v=3.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Auth\Controller\NewController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\www\tp3.2\Application\Auth\Controller\NewController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `tbl_new` [ RunTime:0.0230s ]
+SQL: SELECT COUNT(*) AS tp_count FROM tbl_new  as  a INNER JOIN tbl_new_type  as  b  on a.new_type = b.id  LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM tbl_new  as  a INNER JOIN tbl_new_type  as  b  on a.new_type = b.id  ORDER BY new_id desc LIMIT 0,2   [ RunTime:0.0090s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: nav_title D:\wamp\www\tp3.2\Application\Runtime\Cache\Auth\4ad7e1c0351babc8346e0cd6fc4f5518.php 第 54 行.
+NOTIC: [8] Undefined index: nav_title D:\wamp\www\tp3.2\Application\Runtime\Cache\Auth\4ad7e1c0351babc8346e0cd6fc4f5518.php 第 54 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-09-18T18:24:37+08:00 ] 127.0.0.1 /tp3.2/Auth/new/edit.html?id=8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+NOTIC: [2048] Declaration of Auth\Controller\NewController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\www\tp3.2\Application\Auth\Controller\NewController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `tbl_new_type` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `tbl_new_type` WHERE ( new_type_id = 0 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tbl_new_type` WHERE ( new_type_id =1 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tbl_new` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `tbl_new` WHERE ( new_id =8 ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-09-18T18:24:52+08:00 ] 127.0.0.1 /tp3.2/Auth/new/index.html?v=3.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+NOTIC: [2048] Declaration of Auth\Controller\NewController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\www\tp3.2\Application\Auth\Controller\NewController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `tbl_new` [ RunTime:0.0090s ]
+SQL: SELECT COUNT(*) AS tp_count FROM tbl_new  as  a INNER JOIN tbl_new_type  as  b  on a.new_type = b.id  LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM tbl_new  as  a INNER JOIN tbl_new_type  as  b  on a.new_type = b.id  ORDER BY new_id desc LIMIT 0,2   [ RunTime:0.0080s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: nav_title D:\wamp\www\tp3.2\Application\Runtime\Cache\Auth\4ad7e1c0351babc8346e0cd6fc4f5518.php 第 54 行.
+NOTIC: [8] Undefined index: nav_title D:\wamp\www\tp3.2\Application\Runtime\Cache\Auth\4ad7e1c0351babc8346e0cd6fc4f5518.php 第 54 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2017-09-18T18:24:54+08:00 ] 127.0.0.1 /tp3.2/Auth/new/edit.html?id=7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Auth\Controller\NewController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\www\tp3.2\Application\Auth\Controller\NewController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `tbl_new_type` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `tbl_new_type` WHERE ( new_type_id = 0 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tbl_new_type` WHERE ( new_type_id =1 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tbl_new` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `tbl_new` WHERE ( new_id =7 ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-09-18T18:25:25+08:00 ] 127.0.0.1 /tp3.2/Auth/new/edit.html?id=7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Auth\Controller\NewController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\www\tp3.2\Application\Auth\Controller\NewController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `tbl_new_type` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `tbl_new_type` WHERE ( new_type_id = 0 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tbl_new_type` WHERE ( new_type_id =1 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tbl_new` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `tbl_new` WHERE ( new_id =7 ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.014001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.014001s ]
+
+[ 2017-09-18T18:27:41+08:00 ] 127.0.0.1 /tp3.2/Auth/new/index.html?v=3.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Auth\Controller\NewController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\www\tp3.2\Application\Auth\Controller\NewController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `tbl_new` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM tbl_new  as  a INNER JOIN tbl_new_type  as  b  on a.new_type = b.id  LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM tbl_new  as  a INNER JOIN tbl_new_type  as  b  on a.new_type = b.id  ORDER BY new_id desc LIMIT 0,2   [ RunTime:0.0070s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: nav_title D:\wamp\www\tp3.2\Application\Runtime\Cache\Auth\4ad7e1c0351babc8346e0cd6fc4f5518.php 第 54 行.
+NOTIC: [8] Undefined index: nav_title D:\wamp\www\tp3.2\Application\Runtime\Cache\Auth\4ad7e1c0351babc8346e0cd6fc4f5518.php 第 54 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.011001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.012001s ]
+
+[ 2017-09-18T18:27:43+08:00 ] 127.0.0.1 /tp3.2/Auth/new/edit.html?id=7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+NOTIC: [2048] Declaration of Auth\Controller\NewController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\www\tp3.2\Application\Auth\Controller\NewController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `tbl_new_type` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `tbl_new_type` WHERE ( new_type_id = 0 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tbl_new_type` WHERE ( new_type_id =1 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tbl_new` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `tbl_new` WHERE ( new_id =7 ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010000s ]
+
+[ 2017-09-18T18:27:49+08:00 ] 127.0.0.1 /tp3.2/Auth/new/delete.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Auth\Controller\NewController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\www\tp3.2\Application\Auth\Controller\NewController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `tbl_new` [ RunTime:0.0070s ]
+SQL: DELETE FROM `tbl_new` WHERE ( new_id = 8 ) [ RunTime:0.0310s ]
+
+[ 2017-09-18T18:27:53+08:00 ] 127.0.0.1 /tp3.2/Auth/new/index.html?v=3.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Auth\Controller\NewController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\www\tp3.2\Application\Auth\Controller\NewController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `tbl_new` [ RunTime:0.0080s ]
+SQL: SELECT COUNT(*) AS tp_count FROM tbl_new  as  a INNER JOIN tbl_new_type  as  b  on a.new_type = b.id  LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM tbl_new  as  a INNER JOIN tbl_new_type  as  b  on a.new_type = b.id  ORDER BY new_id desc LIMIT 0,2   [ RunTime:0.0050s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: nav_title D:\wamp\www\tp3.2\Application\Runtime\Cache\Auth\4ad7e1c0351babc8346e0cd6fc4f5518.php 第 54 行.
+NOTIC: [8] Undefined index: nav_title D:\wamp\www\tp3.2\Application\Runtime\Cache\Auth\4ad7e1c0351babc8346e0cd6fc4f5518.php 第 54 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.011001s ]
+
+[ 2017-09-18T18:28:50+08:00 ] 127.0.0.1 /tp3.2/Auth/new/edit.html?id=7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Auth\Controller\NewController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\www\tp3.2\Application\Auth\Controller\NewController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `tbl_new_type` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `tbl_new_type` WHERE ( new_type_id = 0 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tbl_new_type` WHERE ( new_type_id =1 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tbl_new` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `tbl_new` WHERE ( new_id =7 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-09-18T18:28:57+08:00 ] 127.0.0.1 /tp3.2/Auth/New/index/v/3.0/p/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Auth\Controller\NewController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\www\tp3.2\Application\Auth\Controller\NewController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `tbl_new` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM tbl_new  as  a INNER JOIN tbl_new_type  as  b  on a.new_type = b.id  LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM tbl_new  as  a INNER JOIN tbl_new_type  as  b  on a.new_type = b.id  ORDER BY new_id desc LIMIT 6,2   [ RunTime:0.0070s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: nav_title D:\wamp\www\tp3.2\Application\Runtime\Cache\Auth\4ad7e1c0351babc8346e0cd6fc4f5518.php 第 54 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-09-18T18:29:00+08:00 ] 127.0.0.1 /tp3.2/Auth/new/edit.html?id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Auth\Controller\NewController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\www\tp3.2\Application\Auth\Controller\NewController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `tbl_new_type` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `tbl_new_type` WHERE ( new_type_id = 0 )  [ RunTime:0.0040s ]
+SQL: SELECT * FROM `tbl_new_type` WHERE ( new_type_id =1 )  [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `tbl_new` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `tbl_new` WHERE ( new_id =1 ) LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-18T18:29:00+08:00 ] 127.0.0.1 /tp3.2/Auth/new/js/scrollReveal.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Auth\Controller\NewController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\www\tp3.2\Application\Auth\Controller\NewController.class.php 第 14 行.
+ERR: 非法操作:js
+
+[ 2017-09-18T18:29:00+08:00 ] 127.0.0.1 /tp3.2/Auth/new/js/scrollReveal.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Auth\Controller\NewController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\www\tp3.2\Application\Auth\Controller\NewController.class.php 第 14 行.
+ERR: 非法操作:js
+
+[ 2017-09-18T18:29:00+08:00 ] 127.0.0.1 /tp3.2/Auth/new/js/scrollReveal.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Auth\Controller\NewController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\www\tp3.2\Application\Auth\Controller\NewController.class.php 第 14 行.
+ERR: 非法操作:js
+
+[ 2017-09-18T18:29:00+08:00 ] 127.0.0.1 /tp3.2/Auth/new/js/scrollReveal.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Auth\Controller\NewController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\www\tp3.2\Application\Auth\Controller\NewController.class.php 第 14 行.
+ERR: 非法操作:js
+
+[ 2017-09-18T18:29:00+08:00 ] 127.0.0.1 /tp3.2/Auth/new/js/scrollReveal.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Auth\Controller\NewController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\www\tp3.2\Application\Auth\Controller\NewController.class.php 第 14 行.
+ERR: 非法操作:js
+
+[ 2017-09-18T18:29:21+08:00 ] 127.0.0.1 /tp3.2/Auth/new/add.html?v=3.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Auth\Controller\NewController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\www\tp3.2\Application\Auth\Controller\NewController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `tbl_new_type` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `tbl_new_type` WHERE ( new_type_id = 0 )  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tbl_new_type` WHERE ( new_type_id =1 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.012001s ]
+
+[ 2017-09-18T18:29:23+08:00 ] 127.0.0.1 /tp3.2/Auth/new/index.html?v=3.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Auth\Controller\NewController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\www\tp3.2\Application\Auth\Controller\NewController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `tbl_new` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM tbl_new  as  a INNER JOIN tbl_new_type  as  b  on a.new_type = b.id  LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM tbl_new  as  a INNER JOIN tbl_new_type  as  b  on a.new_type = b.id  ORDER BY new_id desc LIMIT 0,2   [ RunTime:0.0090s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: nav_title D:\wamp\www\tp3.2\Application\Runtime\Cache\Auth\4ad7e1c0351babc8346e0cd6fc4f5518.php 第 54 行.
+NOTIC: [8] Undefined index: nav_title D:\wamp\www\tp3.2\Application\Runtime\Cache\Auth\4ad7e1c0351babc8346e0cd6fc4f5518.php 第 54 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-18T18:29:28+08:00 ] 127.0.0.1 /tp3.2/Auth/new/edit.html?id=7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Auth\Controller\NewController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\www\tp3.2\Application\Auth\Controller\NewController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `tbl_new_type` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `tbl_new_type` WHERE ( new_type_id = 0 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tbl_new_type` WHERE ( new_type_id =1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbl_new` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `tbl_new` WHERE ( new_id =7 ) LIMIT 1   [ RunTime:0.0040s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001001s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-09-18T18:29:38+08:00 ] 127.0.0.1 /tp3.2/Auth/new/index.html?v=3.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Auth\Controller\NewController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\www\tp3.2\Application\Auth\Controller\NewController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `tbl_new` [ RunTime:0.0110s ]
+SQL: SELECT COUNT(*) AS tp_count FROM tbl_new  as  a INNER JOIN tbl_new_type  as  b  on a.new_type = b.id  LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM tbl_new  as  a INNER JOIN tbl_new_type  as  b  on a.new_type = b.id  ORDER BY new_id desc LIMIT 0,2   [ RunTime:0.0100s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: nav_title D:\wamp\www\tp3.2\Application\Runtime\Cache\Auth\4ad7e1c0351babc8346e0cd6fc4f5518.php 第 54 行.
+NOTIC: [8] Undefined index: nav_title D:\wamp\www\tp3.2\Application\Runtime\Cache\Auth\4ad7e1c0351babc8346e0cd6fc4f5518.php 第 54 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-18T18:29:41+08:00 ] 127.0.0.1 /tp3.2/Auth/New/index/v/3.0/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Auth\Controller\NewController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\www\tp3.2\Application\Auth\Controller\NewController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `tbl_new` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM tbl_new  as  a INNER JOIN tbl_new_type  as  b  on a.new_type = b.id  LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM tbl_new  as  a INNER JOIN tbl_new_type  as  b  on a.new_type = b.id  ORDER BY new_id desc LIMIT 4,2   [ RunTime:0.0090s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: nav_title D:\wamp\www\tp3.2\Application\Runtime\Cache\Auth\4ad7e1c0351babc8346e0cd6fc4f5518.php 第 54 行.
+NOTIC: [8] Undefined index: nav_title D:\wamp\www\tp3.2\Application\Runtime\Cache\Auth\4ad7e1c0351babc8346e0cd6fc4f5518.php 第 54 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-18T18:29:44+08:00 ] 127.0.0.1 /tp3.2/Auth/new/edit.html?id=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Auth\Controller\NewController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\www\tp3.2\Application\Auth\Controller\NewController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `tbl_new_type` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `tbl_new_type` WHERE ( new_type_id = 0 )  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tbl_new_type` WHERE ( new_type_id =1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbl_new` [ RunTime:0.0170s ]
+SQL: SELECT * FROM `tbl_new` WHERE ( new_id =2 ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-09-18T18:30:22+08:00 ] 127.0.0.1 /tp3.2/Auth/new/index.html?v=3.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Auth\Controller\NewController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\www\tp3.2\Application\Auth\Controller\NewController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `tbl_new` [ RunTime:0.0260s ]
+SQL: SELECT COUNT(*) AS tp_count FROM tbl_new  as  a INNER JOIN tbl_new_type  as  b  on a.new_type = b.id  LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM tbl_new  as  a INNER JOIN tbl_new_type  as  b  on a.new_type = b.id  ORDER BY new_id desc LIMIT 0,2   [ RunTime:0.0080s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: nav_title D:\wamp\www\tp3.2\Application\Runtime\Cache\Auth\4ad7e1c0351babc8346e0cd6fc4f5518.php 第 54 行.
+NOTIC: [8] Undefined index: nav_title D:\wamp\www\tp3.2\Application\Runtime\Cache\Auth\4ad7e1c0351babc8346e0cd6fc4f5518.php 第 54 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-09-18T18:30:24+08:00 ] 127.0.0.1 /tp3.2/Auth/new/edit.html?id=6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Auth\Controller\NewController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\www\tp3.2\Application\Auth\Controller\NewController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `tbl_new_type` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `tbl_new_type` WHERE ( new_type_id = 0 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tbl_new_type` WHERE ( new_type_id =1 )  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tbl_new` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `tbl_new` WHERE ( new_id =6 ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003001s ]
+
